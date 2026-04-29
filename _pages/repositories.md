@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Models, Datasets & Code
+title: Models & Datasets
 description: research datasets, model outputs, and code repositories
 nav: true
 nav_order: 5

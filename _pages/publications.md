@@ -8,9 +8,6 @@ nav_order: 3
 ---
 
 <style>
-.publication-page {
-  --pub-date-width: 5.5rem;
-}
 .publication-note {
   color: var(--global-text-color-light);
   margin-bottom: 1.5rem;
@@ -35,43 +32,22 @@ nav_order: 3
   margin-bottom: 1rem;
   padding-bottom: 0.35rem;
 }
-.publication-list {
-  list-style: none;
-  padding-left: 0;
+.review-list li,
+.presentation-list li {
+  margin-bottom: 0.75rem;
 }
-.publication-list li {
-  display: grid;
-  grid-template-columns: var(--pub-date-width) minmax(0, 1fr);
-  column-gap: 1rem;
-  margin-bottom: 1rem;
-}
-.publication-year,
 .publication-status {
   color: var(--global-theme-color);
   font-weight: 600;
 }
-.publication-status {
-  font-size: 0.9rem;
-}
 .publication-title {
   font-weight: 600;
-}
-.publication-meta {
-  color: var(--global-text-color-light);
-}
-.presentation-list li {
-  margin-bottom: 0.75rem;
-}
-@media (max-width: 575.98px) {
-  .publication-list li {
-    grid-template-columns: 1fr;
-  }
 }
 </style>
 
 <div class="publication-page">
 
-<p class="publication-note">* = corresponding author. Publications are grouped by status and listed in reverse chronological order.</p>
+<p class="publication-note">* = corresponding author. Published works use the al-folio bibliography card layout and are grouped in reverse chronological order.</p>
 
 <div class="publication-actions">
   <a href="https://scholar.google.com/citations?user=LUfxjnEAAAAJ&amp;hl=en">Google Scholar</a>
@@ -79,61 +55,18 @@ nav_order: 3
 
 <section class="publication-section">
   <h2>In Review or Revision</h2>
-  <ol class="publication-list">
-    <li>
-      <div class="publication-status">Under review</div>
-      <div>Gharun, M., Migliavacca, M., Angove, C., Zhou, Y., Buckeridge, K., Branquinho, C., Collalti, A., Nybakken, L., Zhiyanski, M., Sarginci, M., MachÃ¡ÄovÃ¡, K., Guidi C., Koren, G., Ostonen, I., Sell, M., Pers-Kamczyc, E., Aslan, T., Preece, C., Prikaziuk, E., Ã–zkan, U., Vitali, V., HavrdovÃ¡, A., GrÃ¼nzweig, J., Tomelleri, E., Ullah, S., Stoeva, L., Nestola, E., Vanguelova, E., &amp; Guerrieri, R. <span class="publication-title">Effect of global change drivers on carbon fluxes and resilience of European forests.</span> <em>Communications Earth &amp; Environment</em>.</div>
-    </li>
-    <li>
-      <div class="publication-status">In revision</div>
-      <div>Chandel, A., Cattry, M., Zhou, Y., Duong, H., Litvak, M., Pockman, W., &amp; Luo, Y. <span class="publication-title">Hydraulic Redistribution Decreases with Precipitation Magnitude and Frequency in a Dryland Ecosystem: A Data-Model Fusion Approach.</span> <em>Biogeosciences</em>.</div>
-    </li>
-    <li>
-      <div class="publication-status">Under review</div>
-      <div>Zhou, J., Quan, Q., Huang, W., Hanson, P., Ricciuto, D., Mayes, M., Griffiths, N., Salmon, V., Weber, S., Jiang, L., Zhou, Y., Shi, X., Chen, W., Zhang, Y., &amp; Luo, Y. <span class="publication-title">The fate of peatland carbon interactively determined by elevated carbon dioxide and warming.</span> <em>Nature Climate Change</em>.</div>
-    </li>
+  <ol class="review-list">
+    <li><span class="publication-status">Under review.</span> Gharun, M., Migliavacca, M., Angove, C., Zhou, Y., Buckeridge, K., Branquinho, C., Collalti, A., Nybakken, L., Zhiyanski, M., Sarginci, M., Machacova, K., Guidi C., Koren, G., Ostonen, I., Sell, M., Pers-Kamczyc, E., Aslan, T., Preece, C., Prikaziuk, E., Ozkan, U., Vitali, V., Havrdova, A., Grunzweig, J., Tomelleri, E., Ullah, S., Stoeva, L., Nestola, E., Vanguelova, E., &amp; Guerrieri, R. <span class="publication-title">Effect of global change drivers on carbon fluxes and resilience of European forests.</span> <em>Communications Earth &amp; Environment</em>.</li>
+    <li><span class="publication-status">In revision.</span> Chandel, A., Cattry, M., Zhou, Y., Duong, H., Litvak, M., Pockman, W., &amp; Luo, Y. <span class="publication-title">Hydraulic Redistribution Decreases with Precipitation Magnitude and Frequency in a Dryland Ecosystem: A Data-Model Fusion Approach.</span> <em>Biogeosciences</em>.</li>
+    <li><span class="publication-status">Under review.</span> Zhou, J., Quan, Q., Huang, W., Hanson, P., Ricciuto, D., Mayes, M., Griffiths, N., Salmon, V., Weber, S., Jiang, L., Zhou, Y., Shi, X., Chen, W., Zhang, Y., &amp; Luo, Y. <span class="publication-title">The fate of peatland carbon interactively determined by elevated carbon dioxide and warming.</span> <em>Nature Climate Change</em>.</li>
   </ol>
 </section>
 
 <section class="publication-section">
-  <h2>Selected Publications</h2>
-  <ol class="publication-list">
-    <li><div class="publication-year">2025</div><div>Zhou, Y.* and Williams, C.A. <span class="publication-title">Forest carbon modeling improved through hierarchical assimilation of pool-based measurements.</span> <em>Journal of Advances in Modeling Earth Systems</em>, 17(3), e2024MS004622.</div></li>
-    <li><div class="publication-year">2025</div><div>Luo, Y., Wei, N., Lu, X., Zhou, Y., Tao, F., Quan, Q., Liao, C., Jiang, L., Xia, J., Huang, Y. and Niu, S. <span class="publication-title">Large CO2 removal potential of woody debris preservation in managed forests.</span> <em>Nature Geoscience</em>, pp.1-7.</div></li>
-    <li><div class="publication-year">2023</div><div>Ruehr, S., Keenan, T.F., Williams, C., Zhou, Y., Lu, X., Bastos, A., Canadell, J.G., Prentice, I.C., Sitch, S. and Terrer, C. <span class="publication-title">Evidence and attribution of the enhanced land carbon sink.</span> <em>Nature Reviews Earth &amp; Environment</em>, 4(8), pp.518-534.</div></li>
-    <li><div class="publication-year">2021</div><div>Zhou, Y.*, Williams, C.A., Hasler, N., Gu, H. and Kennedy, R. <span class="publication-title">Beyond biomass to carbon fluxes: Application and evaluation of a comprehensive forest carbon monitoring system.</span> <em>Environmental Research Letters</em>, 16(5), 055026.</div></li>
-    <li><div class="publication-year">2020</div><div>Zhou, Y., Williams, C.A., Lauvaux, T., Davis, K.J., Feng, S., Baker, I., Denning, S. and Wei, Y. <span class="publication-title">A multiyear gridded data ensemble of surface biogenic carbon fluxes for North America: Evaluation and analysis of results.</span> <em>Journal of Geophysical Research: Biogeosciences</em>, 125(2), e2019JG005314.</div></li>
-  </ol>
-</section>
-
-<section class="publication-section">
-  <h2>Other Peer-reviewed Journal Articles</h2>
-  <ol class="publication-list">
-    <li><div class="publication-year">2026</div><div>Rudgers, J., and co-authors. <span class="publication-title">Precipitation variability interacts with mean precipitation to restructure a semi-arid grassland community.</span> <em>Ecology</em>. Accepted.</div></li>
-    <li><div class="publication-year">2025</div><div>Quan, Q., Zhou, J., Hanson, P.J., Ricciuto, D., Sebestyen, S.D., Weston, D.J., Chanton, J.P., Wilson, R.M., Kostka, J.E., Zhou, Y., Wei, N., Jiang, L., Mayes, M.A., Stelling, J.M., Richardson, A.D., Dusenge, M.E., Way, D., Warren, J., and Luo, Y. <span class="publication-title">Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming.</span> <em>Science</em>, 390, pp.367-370. DOI: 10.1126/science.adv7104.</div></li>
-    <li><div class="publication-year">2025</div><div>Dong, Y., Zhou, Y.*, Zhang, L., Tian, F., Xie, Q., Chen, Y., Ruan, L. and Zhang, B. <span class="publication-title">An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019.</span> <em>Scientific Data</em>, 12(1), 1167.</div></li>
-    <li><div class="publication-year">2024</div><div>Zhou, Y. <span class="publication-title">Hybrid Modeling in Earth System Science.</span> In Y. Luo &amp; B. Smith (Eds.), <em>Land Carbon Cycle Modeling Matrix Approach, Data Assimilation, Ecological Forecasting, and Machine Learning</em>. CRC Press. Taylor and Francis.</div></li>
-    <li><div class="publication-year">2023</div><div>Dong, Y., Zhou, Y.*, Zhang, L., Gu, Y. and Sutrisno, D. <span class="publication-title">Intensive land-use is associated with development status in port cities of Southeast Asia.</span> <em>Environmental Research Letters</em>, 18(4), 044006.</div></li>
-    <li><div class="publication-year">2023</div><div>Hou, E., Ma, S., Huang, Y., Zhou, Y., Kim, H.S., LÃ³pez-Blanco, E., Jiang, L., Xia, J., Tao, F., Williams, C. and Williams, M. <span class="publication-title">Across-model spread and shrinking in predicting peatland carbon dynamics under global change.</span> <em>Global Change Biology</em>, 29(10), pp.2759-2775.</div></li>
-    <li><div class="publication-year">2023</div><div>Rudgers, J.A., and co-authors. <span class="publication-title">Infrastructure to factorially manipulate the mean and variance of precipitation in the field.</span> <em>Ecosphere</em>, 14(7), e4603.</div></li>
-    <li><div class="publication-year">2022</div><div>Sun, J., Wei, X., Zhou, Y., Chan, C. and Diao, J. <span class="publication-title">Hurricanes substantially reduce the nutrients in tropical forested watersheds in Puerto Rico.</span> <em>Forests</em>, 13(1), 71.</div></li>
-    <li><div class="publication-year">2022</div><div>Gourdji, S.M., Karion, A., Lopez-Coto, I., Ghosh, S., Mueller, K.L., Zhou, Y., Williams, C.A., Baker, I.T., Haynes, K.D. and Whetstone, J.R. <span class="publication-title">A modified Vegetation Photosynthesis and Respiration Model (VPRM) for the eastern USA and Canada, evaluated with comparison to atmospheric observations and other biospheric models.</span> <em>Journal of Geophysical Research: Biogeosciences</em>, 127(1), e2021JG006290.</div></li>
-    <li><div class="publication-year">2021</div><div>Feng, S., Lauvaux, T., Williams, C.A., Davis, K.J., Zhou, Y., Baker, I., Barkley, Z.R. and Wesloh, D. <span class="publication-title">Joint CO2 mole fraction and flux analysis confirms missing processes in CASA terrestrial carbon uptake over North America.</span> <em>Global Biogeochemical Cycles</em>, 35(7), e2020GB006914.</div></li>
-    <li><div class="publication-year">2021</div><div>Wei, Y., and co-authors. <span class="publication-title">Atmospheric Carbon and Transport - America (ACT - America) data sets: Description, management, and delivery.</span> <em>Earth and Space Science</em>, 8(7), e2020EA001634.</div></li>
-    <li><div class="publication-year">2020</div><div>Zhang, L., Xiao, J., Zheng, Y., Li, S. and Zhou, Y. <span class="publication-title">Increased carbon uptake and water use efficiency in global semi-arid ecosystems.</span> <em>Environmental Research Letters</em>, 15(3), 034022.</div></li>
-    <li><div class="publication-year">2020</div><div>Gafforov, Y., Ordynets, A., Langer, E., Yarasheva, M., de Mello Gugliotta, A., Schigel, D., Pecoraro, L., Zhou, Y., Cai, L. and Zhou, L.W. <span class="publication-title">Species diversity with comprehensive annotations of wood-inhabiting poroid and corticioid fungi in Uzbekistan.</span> <em>Frontiers in Microbiology</em>, 11, 598321.</div></li>
-    <li><div class="publication-year">2019</div><div>Zhou, Y., Zhang, L., Xiao, J., Williams, C.A., Vitkovskaya, I. and Bao, A. <span class="publication-title">Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades.</span> <em>Science of the Total Environment</em>, 658, pp.922-935.</div></li>
-    <li><div class="publication-year">2019</div><div>Feng, S., Lauvaux, T., Davis, K.J., Keller, K., Zhou, Y., Williams, C., Schuh, A.E., Liu, J. and Baker, I. <span class="publication-title">Seasonal characteristics of model uncertainties from biogenic fluxes, transport, and large-scale boundary inflow in atmospheric CO2 simulations over North America.</span> <em>Journal of Geophysical Research: Atmospheres</em>, 124(24), pp.14325-14346.</div></li>
-    <li><div class="publication-year">2019</div><div>Gu, H., Williams, C.A., Hasler, N. and Zhou, Y. <span class="publication-title">The carbon balance of the southeastern US forest sector as driven by recent disturbance trends.</span> <em>Journal of Geophysical Research: Biogeosciences</em>, 124(9), pp.2786-2803.</div></li>
-    <li><div class="publication-year">2019</div><div>Yan, M., Li, Z., Tian, X., Zhang, L. and Zhou, Y. <span class="publication-title">Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical models.</span> <em>Forest Ecosystems</em>, 6(1), 12.</div></li>
-    <li><div class="publication-year">2017</div><div>Zheng, Y., Zhang, L., Zhou, Y. and Zhang, B. <span class="publication-title">Vegetation change and its driving factors in global drylands during the period of 1982-2012.</span> <em>Arid Zone Research</em>, 34(1), pp.59-66.</div></li>
-    <li><div class="publication-year">2017</div><div>Feng, Q., Zhou, L., Chen, E., Liang, X., Zhao, L. and Zhou, Y. <span class="publication-title">The performance of airborne C-band PolInSAR data on forest growth stage types classification.</span> <em>Remote Sensing</em>, 9(9), 955.</div></li>
-    <li><div class="publication-year">2016</div><div>Zhang, L., Xiao, J., Zhou, Y., Zheng, Y., Li, J. and Xiao, H. <span class="publication-title">Drought events and their effects on vegetation productivity in China.</span> <em>Ecosphere</em>, 7(12), e01591.</div></li>
-    <li><div class="publication-year">2015</div><div>Zhou, Y., Zhang, L., Fensholt, R., Wang, K., Vitkovskaya, I. and Tian, F. <span class="publication-title">Climate contributions to vegetation variations in central Asian drylands: Pre-and post-USSR collapse.</span> <em>Remote Sensing</em>, 7(3), pp.2449-2470.</div></li>
-    <li><div class="publication-year">2015</div><div>Xiao, J., Zhou, Y. and Zhang, L. <span class="publication-title">Contributions of natural and human factors to increases in vegetation productivity in China.</span> <em>Ecosphere</em>, 6(11), pp.1-20.</div></li>
-    <li><div class="publication-year">2014</div><div>Zhou, Y., Zhang, L., Xiao, J., Chen, S., Kato, T. and Zhou, G. <span class="publication-title">A comparison of satellite-derived vegetation indices for approximating gross primary productivity of grasslands.</span> <em>Rangeland Ecology &amp; Management</em>, 67(1), pp.9-18.</div></li>
-    <li><div class="publication-year">2014</div><div>Zhang, B., Zhang, L., Guo, H., Leinenkugel, P., Zhou, Y., Li, L. and Shen, Q. <span class="publication-title">Drought impact on vegetation productivity in the Lower Mekong Basin.</span> <em>International Journal of Remote Sensing</em>, 35(8), pp.2835-2856.</div></li>
-  </ol>
+  <h2>Published Articles and Book Chapter</h2>
+  <div class="publications">
+    {% bibliography %}
+  </div>
 </section>
 
 <section class="publication-section">
