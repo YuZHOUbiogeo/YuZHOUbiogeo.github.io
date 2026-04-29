@@ -298,7 +298,7 @@ Get ready for AGU2024 @DC! My colleagues and I will be presenting at the oral an
 
 I have moved to ETH Zurich to start my Research Associate position in Prof. Dr. Nina Buchmann's group.
 
-<img src="{{ '/assets/img/news/ETH.png' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3">
+<img src="{{ '/assets/img/news/ETH.jpg' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3">
 
 </div>
 </section>
