@@ -51,12 +51,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-about",
-          title: "About",
-          description: "",
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae for Yu Zhou.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
