@@ -218,7 +218,7 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
 
     <p>"Based on my knowledge, this is the most effective and the least expensive-and possibly the most sustainable-way to capture carbon," said study first author and Cornell University researcher Yiqi Luo. "There's huge potential."</p>
 
-   <img src="{{ '/assets/img/news/Yiqiluo.png' | relative_url }}" alt="Nature Geoscience figure" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/Yiqiluo.png' | relative_url }}" alt="Nature Geoscience figure" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
@@ -344,7 +344,7 @@ My collaborators and I have several presentations:
   <li>
     <p>Thrilled to share our new paper in Nature Reviews Earth & Environment! Here, we look into the past to help the future. Evidence and attribution of the enhanced land carbon sink. Full text link: <a href="https://www.nature.com/articles/s43017-023-00456-3">https://www.nature.com/articles/s43017-023-00456-3</a></p>
 
-   <img src="{{ '/assets/img/news/43017_2023_456_Fig3_HTML.webp' | relative_url }}" alt="2023 July Nature Reviews Earth & Environment figure" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/43017_2023_456_Fig3_HTML.webp' | relative_url }}" alt="2023 July Nature Reviews Earth & Environment figure" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
@@ -401,7 +401,7 @@ This work is <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643">onl
   <li>
     <p>I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Science at Cornell University! Check out this <a href="https://science.ai.cornell.edu/">website</a> to explore 2023 postdoc fellowship openings!</p>
 
-   <img src="{{ '/assets/img/news/MVE.jpg' | relative_url }}" alt="MVE" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/MVE.jpg' | relative_url }}" alt="MVE" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
 </ul>
@@ -588,7 +588,7 @@ Happy new year and welcome to the 2020s!
 
     <p>Our paper, "Seasonal characteristics of model uncertainties from biogenic fluxes, transport, and large-scale boundary inflow in atmospheric CO2 simulations over North America", is <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD031165">online</a> in JGR-Atmospheres.</p>
 
-   <img src="{{ '/assets/img/news/fengsha.jpg' | relative_url }}" alt="ACT" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/fengsha.jpg' | relative_url }}" alt="ACT" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
@@ -637,7 +637,7 @@ Our paper, "Improved simulation of carbon and water fluxes by assimilating multi
 
     <p>The findings highlight the spatiotemporal changes of institutional and socioeconomic impacts on vegetation productivity in Central Asian drylands and provide implications for future dryland management and restoration efforts.</p>
 
-   <img src="{{ '/assets/img/news/stone.jpg' | relative_url }}" alt="Central Asia" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/stone.jpg' | relative_url }}" alt="Central Asia" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
