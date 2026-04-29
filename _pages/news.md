@@ -67,7 +67,7 @@ nav_order: 1
 
 .news-subitems > li {
   position: relative;
-  padding-left: 1.75rem;
+  padding-left: 2.25rem;
   margin-bottom: 1.25rem;
 }
 
@@ -77,9 +77,9 @@ nav_order: 1
   left: 0;
   top: 0;
   color: var(--global-theme-color);
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1.5;
+  font-size: 1.55rem;
+  font-weight: 900;
+  line-height: 1.25;
 }
 
 .news-subitems > li p {
@@ -99,6 +99,21 @@ nav_order: 1
   margin-bottom: 0.35rem;
 }
 
+.news-timeline-content.news-single-item {
+  position: relative;
+  padding-left: 2.25rem;
+}
+
+.news-timeline-content.news-single-item::before {
+  content: "\2192";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--global-theme-color);
+  font-size: 1.55rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
 .news-timeline-content {
   min-width: 0;
 }
@@ -132,7 +147,7 @@ nav_order: 1
 
 <div class="news-timeline"><section class="news-timeline-item">
   <div class="news-timeline-date">2026 April</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 I attended a workshop to discuss the progress of WG3 of <a href="https://cleanforest.eu/">CLEANFOREST COST Action</a>. It was also my second time visit to the <a href="https://anaee.fi/facility/hyytiala-smear-ii/">Hyytiälä SMEAR II LTER Site</a>.
 
@@ -141,7 +156,7 @@ I attended a workshop to discuss the progress of WG3 of <a href="https://cleanfo
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2026 March</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Wonder how trees in dryland use water during the dry periods? We show that hydraulic redistribution declines as precipitation becomes larger and more frequent, highlighting its key role during dry spells. A data-model fusion approach improves soil moisture predictions in drylands. Here is the <a href="http://bg.copernicus.org/articles/23/2045/2026/">link</a> to this new Biogeosciences paper!
 
@@ -150,7 +165,7 @@ Wonder how trees in dryland use water during the dry periods? We show that hydra
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2026 January</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 At the Swiss Forest Lab Science Day in Bern, I gave a talk about our recent work on the drivers of gross primary productivity (GPP) changes in European ecosystems over the past two decades. I was happy to meet so many colleagues at the beginning of 2026!
 
@@ -159,7 +174,7 @@ At the Swiss Forest Lab Science Day in Bern, I gave a talk about our recent work
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2025 December</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 At ETH Zurich in Prof. Nina Buchmann's group, we are launching two initiatives focused on applying machine learning (ML) and artificial intelligence (AI) to understand carbon and water fluxes. Each initiative has about ten participants. Stay tuned!
 
@@ -168,7 +183,7 @@ At ETH Zurich in Prof. Nina Buchmann's group, we are launching two initiatives f
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2025 October</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming"</a> by Quan et al. is now online! See more from <a href="https://news.cornell.edu/stories/2025/10/peatlands-huge-reservoir-carbon-risk-release">Cornell News</a> and <a href="https://research.gatech.edu/peatlands-huge-reservoir-carbon-risk-release">Georgia Tech News</a>!
 
@@ -219,7 +234,7 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2025 May</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 We visited the <a href="https://www.hfsjg.ch/en/home/">High Altitude Research Stations at Jungfraujoch and Gornergrat</a>! Greenhouse gas concentrations at Jungfraujoch are continuously rising and air temperature has already risen by 2.1 °C between the pre-industrial period 1871-1900 and now (1994-2023).
 
@@ -248,7 +263,7 @@ The observation facilities are impressive and the views are breathtaking! Many t
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2025 February</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/elephants.png' | relative_url }}" alt="elephants" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -263,7 +278,7 @@ It equals the weight of 20 billion elephants! (Generated by ChatGPT)
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2024 December</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Get ready for AGU2024 @DC! My colleagues and I will be presenting at the oral and poster sessions! Here is the list:
 
@@ -278,7 +293,7 @@ Get ready for AGU2024 @DC! My colleagues and I will be presenting at the oral an
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2024 September</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/ETH.png' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -289,7 +304,7 @@ I have moved to ETH Zurich to start my Research Associate position in Prof. Dr. 
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2024 June</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Glad to be the instructor of the 7th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
 
@@ -298,7 +313,7 @@ Glad to be the instructor of the 7th training course on New Advances in Land Car
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2023 December</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Get ready for AGU2023!
 
@@ -340,7 +355,7 @@ My collaborators and I have several presentations:
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2023 June</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Glad to be the instructor of the 6th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
 
@@ -349,7 +364,7 @@ Glad to be the instructor of the 6th training course on New Advances in Land Car
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2023 March</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/portcity2.jpg' | relative_url }}" alt="Port cities" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -362,7 +377,7 @@ It is now <a href="https://iopscience.iop.org/article/10.1088/1748-9326/acc2d2">
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2023 February</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/enqinghou.jpg' | relative_url }}" alt="Model uncertainty" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -393,7 +408,7 @@ This work is <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643">onl
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2022 December</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 AGU presentations:
 
@@ -407,7 +422,7 @@ AGU presentations:
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2022 August</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/cornell.png' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 50%; max-height: 300px;">
 
@@ -418,7 +433,7 @@ I moved to Ithaca and started my new position as a postdoctoral associate at Cor
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2022 May</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 I will be the instructor of the 5th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://www2.nau.edu/luo-lab/?workshop">https://www2.nau.edu/luo-lab/?workshop</a>
 
@@ -427,7 +442,7 @@ I will be the instructor of the 5th training course on New Advances in Land Carb
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2021 November</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/Sharon Gourdji.jpg' | relative_url }}" alt="VPRM" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -440,7 +455,7 @@ It's available on <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2021 July-August-September</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/NAU.png' | relative_url }}" alt="NAU" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -451,7 +466,7 @@ Back in Worcester! Completed my doctoral degree! Moved to Flagstaff, and I am re
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2021 June</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/NFCMSdata.png' | relative_url }}" alt="NFCMSdata" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -464,7 +479,7 @@ It provides estimates of forest carbon stocks and fluxes in the form of abovegro
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2021 March</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/NFCMS.jpg' | relative_url }}" alt="NFCMS" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -501,7 +516,7 @@ Our paper, "Beyond biomass to carbon fluxes: application and evaluation of a com
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2020 November</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/fungi.webp' | relative_url }}" alt="Fungi" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -514,7 +529,7 @@ I really enjoyed my collaboration with the fungi group!
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2020 August</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Welcome back to another year at Clark!
 
@@ -523,7 +538,7 @@ Welcome back to another year at Clark!
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2020 July</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/CASA_earthdata.jpg' | relative_url }}" alt="2020 July news photo" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -534,7 +549,7 @@ NASA Earth Data features our team's surface biogenic CO2 exchanges simulated for
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2020 February</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/JGR-B_TD.png' | relative_url }}" alt="2020 February Taylor diagram" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -547,7 +562,7 @@ Our paper, "A Multiyear Gridded Data Ensemble of Surface Biogenic Carbon Fluxes 
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2020 January</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/WUE.jpg' | relative_url }}" alt="WUE" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -584,7 +599,7 @@ Happy new year and welcome to the 2020s!
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2019 August</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/Huangu.jpg' | relative_url }}" alt="SEforest" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -597,7 +612,7 @@ Our paper, "The Carbon Balance of the Southeastern U.S. Forest Sector as Driven 
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2019 April</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/Biome-BGC MuSo.webp' | relative_url }}" alt="Biome-BGC MuSo" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -633,7 +648,7 @@ Our paper, "Improved simulation of carbon and water fluxes by assimilating multi
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2018 October</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 Dr. Williams presented my work at the international ForestSAT conference held in College Park, MD. Thanks, Chris!
 
@@ -642,7 +657,7 @@ Dr. Williams presented my work at the international ForestSAT conference held in
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2018 August</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 I enjoyed attending the Ecological Society of America annual meeting in August 2018, in New Orleans, LA. I presented in the Inspire session "Improving the Predictive Ability of the Global Carbon Cycle Models".
 
@@ -651,7 +666,7 @@ I enjoyed attending the Ecological Society of America annual meeting in August 2
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2018 May</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 I was selected to attend a May short course on New Advances in Land Carbon Cycle Modeling hosted by Yiqi Luo's EcoLab of the Center for Ecosystem Science and Society at Northern Arizona University. My travel is funded by the Summer Pruser Enhancement Award from Clark University.
 
@@ -660,7 +675,7 @@ I was selected to attend a May short course on New Advances in Land Carbon Cycle
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2017 September</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/qifeng.png' | relative_url }}" alt="PolInSAR" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -673,7 +688,7 @@ This paper proposes a classification scheme for forest growth stage types and ot
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2017 April</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/harvardforest.png' | relative_url }}" alt="HF" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -686,7 +701,7 @@ I will (1) participate in field measurement programs recording biomass in recent
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2016 December</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/lizhang.jpg' | relative_url }}" alt="Drought" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -699,7 +714,7 @@ In this paper, we characterized the drought events in China from 1982 to 2012 an
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2016 October</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 I attended the Data-Driven and Simulation Science Summer School in Jena hosted by Friedrich Schiller University and the Max Planck Institute for Biogeochemistry. I enjoyed my time in Germany!
 
@@ -710,7 +725,7 @@ I got a Travel Award to attend the Data-Driven and Simulation Science Summer Sch
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2015 November</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/jingfengxiao.jpg' | relative_url }}" alt="natural and human" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -723,7 +738,7 @@ We analyzed the long-term trends in vegetation productivity in China using the s
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2015 March</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/remotesensing.png' | relative_url }}" alt="central asia" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -736,7 +751,7 @@ Our results clearly illustrate the combined influence of climatic/anthropogenic 
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2014 April</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/binghua zhang.jpg' | relative_url }}" alt="Mekong" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -749,7 +764,7 @@ We assessed the impact of drought on vegetation productivity in the LMB during 2
 
 <section class="news-timeline-item">
   <div class="news-timeline-date">2014 January</div>
-  <div class="news-timeline-content" markdown="1">
+  <div class="news-timeline-content news-single-item" markdown="1">
 
 <img src="{{ '/assets/img/news/rangeland.jpg' | relative_url }}" alt="GPP" class="img-fluid rounded z-depth-1 mb-3">
 
