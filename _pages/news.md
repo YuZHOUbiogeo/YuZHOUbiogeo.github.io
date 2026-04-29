@@ -23,7 +23,7 @@ nav_order: 1
   position: relative;
   display: grid;
   grid-template-columns: 6.5rem minmax(0, 1fr);
-  gap: 2rem;
+  gap: 3rem;
   margin-bottom: 2.5rem;
 }
 .news-timeline-date {
@@ -39,7 +39,7 @@ nav_order: 1
   content: "";
   position: absolute;
   top: 0.25rem;
-  right: -2.6rem;
+  right: -2.85rem;
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
