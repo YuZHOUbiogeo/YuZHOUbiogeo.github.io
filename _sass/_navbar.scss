@@ -173,6 +173,11 @@
 }
 
 @media (min-width: 576px) {
+  .navbar .navbar-nav > .nav-item {
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+  }
+
   #light-toggle {
     transform: translateY(4px);
   }
