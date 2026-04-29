@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-nav: true
+nav: false
 nav_order: 7
 permalink: /
 subtitle: Research Associate, Lecturer
@@ -17,7 +17,7 @@ profile:
     Switzerland
 
 selected_papers: true
-cv_on_about: true
+cv_on_about: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yu Zhou,  a Research Associate from [Prof. Nina Buchmann](https://usys.ethz.ch/en/people/profile.nina-buchmann.html)'s group and Lecturer in the Department of Environmental Systems Science at ETH ZÃ¼rich. My current research project is CERES: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests. 
+I am Yu Zhou,  a Research Associate from [Prof. Nina Buchmann](https://usys.ethz.ch/en/people/profile.nina-buchmann.html)'s group and Lecturer in the Department of Environmental Systems Science at ETH Zürich. My current research project is CERES: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests. 
 
 I was previously a Schmidt AI in Science Postdoctoral Fellow from [Prof. Yiqi Luo](https://ecolab.cals.cornell.edu/?home)'s ECOLAB at the College of Agriculture and Life Sciences(CALS), Cornell University. 
 

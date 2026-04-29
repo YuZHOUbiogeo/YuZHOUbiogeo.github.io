@@ -80,7 +80,7 @@ nav_order: 1
   <div class="news-timeline-date">2026 April</div>
   <div class="news-timeline-content" markdown="1">
 
-I attended a workshop to discuss the progress of WG3 of [CLEANFOREST COST Action](https://cleanforest.eu/). It was also my second time visit to the [HyytiÃ¤lÃ¤ SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/).
+I attended a workshop to discuss the progress of WG3 of [CLEANFOREST COST Action](https://cleanforest.eu/). It was also my second time visit to the [Hyytiälä SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/).
 
 </div>
 </section>
@@ -146,7 +146,7 @@ Our paper, "[Large CO2 removal potential of woody debris preservation in managed
 
 Our group attended the 1st eLTER meeting in Tampere. I presented the work "Interactive Effect of Nitrogen Deposition and Drought on Forest Carbon Sequestration" with data from 47 ICOS+FLUXNET sites.
 
-We also visited the [HyytiÃ¤lÃ¤ SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/), which included a forest site (pine) and a peatland site.
+We also visited the [Hyytiälä SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/), which included a forest site (pine) and a peatland site.
 
 We also enjoyed the daylight in summer and the sauna in Finland!
 
@@ -157,7 +157,7 @@ We also enjoyed the daylight in summer and the sauna in Finland!
   <div class="news-timeline-date">2025 May</div>
   <div class="news-timeline-content" markdown="1">
 
-We visited the [High Altitude Research Stations at Jungfraujoch and Gornergrat](https://www.hfsjg.ch/en/home/)! Greenhouse gas concentrations at Jungfraujoch are continuously rising and air temperature has already risen by 2.1 Â°C between the pre-industrial period 1871-1900 and now (1994-2023).
+We visited the [High Altitude Research Stations at Jungfraujoch and Gornergrat](https://www.hfsjg.ch/en/home/)! Greenhouse gas concentrations at Jungfraujoch are continuously rising and air temperature has already risen by 2.1 °C between the pre-industrial period 1871-1900 and now (1994-2023).
 
 The observation facilities are impressive and the views are breathtaking! Many thanks to Kukkis and the local scientists and staff for organizing this fantastic trip!
 
@@ -320,7 +320,7 @@ I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Scien
 AGU presentations:
 
 - Improved Estimates of Carbon and Water Dynamics by TECO-Dryland and Data Assimilation. Yu Zhou (presenting author).
-- The Biogeochemical Model Database bgc_md2, a Python Package for Fast Comparison and Benchmarking of Element Cycling Models. Markus MÃ¼ller (presenting author).
+- The Biogeochemical Model Database bgc_md2, a Python Package for Fast Comparison and Benchmarking of Element Cycling Models. Markus Müller (presenting author).
 - Towards reducing uncertainty in land carbon predictions through the Global Matrix MIP traceability framework. Kostiantyn Viatkin (presenting author).
 - How can we use comprehensive ensembles to improve regional carbon flux estimation? Sha Feng (presenting author).
 
