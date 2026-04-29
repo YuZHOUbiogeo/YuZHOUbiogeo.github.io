@@ -15,7 +15,7 @@ nav_order: 1
   position: absolute;
   top: 0.25rem;
   bottom: 0;
-  left: 7.25rem;
+  left: 8rem;
   width: 2px;
   background: var(--global-divider-color);
 }
@@ -23,7 +23,7 @@ nav_order: 1
   position: relative;
   display: grid;
   grid-template-columns: 6.5rem minmax(0, 1fr);
-  gap: 3rem;
+  gap: 2.75rem;
   margin-bottom: 2.5rem;
 }
 .news-timeline-date {
@@ -39,7 +39,7 @@ nav_order: 1
   content: "";
   position: absolute;
   top: 0.25rem;
-  right: -2.85rem;
+  right: -1.95rem;
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
@@ -47,14 +47,29 @@ nav_order: 1
   border: 3px solid var(--global-bg-color);
   box-shadow: 0 0 0 1px var(--global-divider-color);
 }
+.news-subitems {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.news-subitems li {
+  margin-bottom: 0.9rem;
+}
+
+.news-subitems li::marker {
+  color: var(--global-theme-color);
+}
+
 .news-timeline-content {
   min-width: 0;
 }
 .news-timeline-content img {
-  max-height: 420px;
+  max-width: 70%;
+  max-height: 320px;
   object-fit: contain;
   background: var(--global-bg-color);
 }
+
 @media (max-width: 575.98px) {
   .news-timeline::before {
     left: 0.4rem;
@@ -125,11 +140,16 @@ Science paper ["Drought-induced peatland carbon loss exacerbated by elevated CO2
   <div class="news-timeline-date">2025 July</div>
   <div class="news-timeline-content" markdown="1">
 
-Our paper, "Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming", has been accepted by Science! Thanks to Quan for leading this fantastic work!
+<ul class="news-subitems">
+  <li>
+    Our paper, "Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming", has been accepted by Science! Thanks to Quan for leading this fantastic work!
+  </li>
+  <li>
+    Our paper, "[An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019](https://www.nature.com/articles/s41597-025-05519-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250709&utm_content=10.1038/s41597-025-05519-2)", is now online on Scientific Data. We present the Global Dryland Phenology Dataset (GDPD) for 2001-2019, covering 88.4% of global drylands, which compensates for missing regions in other products.
 
-Our paper, "[An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019](https://www.nature.com/articles/s41597-025-05519-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250709&utm_content=10.1038/s41597-025-05519-2)", is now online on Scientific Data. We present the Global Dryland Phenology Dataset (GDPD) for 2001-2019, covering 88.4% of global drylands, which compensates for missing regions in other products.
-
-If you are looking for a dryland phenology dataset for your future work, please consider our dataset and access it via our [open-source repository](https://figshare.com/articles/dataset/Global_dryland_phenology_dataset_GDPD_/27160602/2)!
+    If you are looking for a dryland phenology dataset for your future work, please consider our dataset and access it via our [open-source repository](https://figshare.com/articles/dataset/Global_dryland_phenology_dataset_GDPD_/27160602/2)!
+  </li>
+</ul>
 
 </div>
 </section>
@@ -138,17 +158,22 @@ If you are looking for a dryland phenology dataset for your future work, please 
   <div class="news-timeline-date">2025 June</div>
   <div class="news-timeline-content" markdown="1">
 
-<img src="{{ '/assets/img/news/Yiqiluo.png' | relative_url }}" alt="Nature Geoscience figure" class="img-fluid rounded z-depth-1 mb-3">
+<ul class="news-subitems">
+  <li>
+    <img src="{{ '/assets/img/news/Yiqiluo.png' | relative_url }}" alt="Nature Geoscience figure" class="img-fluid rounded z-depth-1 mb-3">
 
-Our paper, "[Large CO2 removal potential of woody debris preservation in managed forests](https://www.nature.com/articles/s41561-025-01731-2)", is now available online at Nature Geoscience. One key message is that To Slow Global Warming, Bury Wood Debris, as the headline from [Cornell News](https://news.cornell.edu/stories/2025/06/slow-global-warming-bury-wood-debris). Our study shows that burying this woody biomass over the next 76 years could remove between 770 and 937 gigatons of CO2 from the atmosphere, or between 10.1 and 12.3 gigatons of CO2 per year.
+    Our paper, "[Large CO2 removal potential of woody debris preservation in managed forests](https://www.nature.com/articles/s41561-025-01731-2)", is now available online at Nature Geoscience. One key message is that To Slow Global Warming, Bury Wood Debris, as the headline from [Cornell News](https://news.cornell.edu/stories/2025/06/slow-global-warming-bury-wood-debris). Our study shows that burying this woody biomass over the next 76 years could remove between 770 and 937 gigatons of CO2 from the atmosphere, or between 10.1 and 12.3 gigatons of CO2 per year.
 
-"Based on my knowledge, this is the most effective and the least expensive-and possibly the most sustainable-way to capture carbon," said study first author and Cornell University researcher Yiqi Luo. "There's huge potential."
+    "Based on my knowledge, this is the most effective and the least expensive-and possibly the most sustainable-way to capture carbon," said study first author and Cornell University researcher Yiqi Luo. "There's huge potential."
+  </li>
+  <li>
+    Our group attended the 1st eLTER meeting in Tampere. I presented the work "Interactive Effect of Nitrogen Deposition and Drought on Forest Carbon Sequestration" with data from 47 ICOS+FLUXNET sites.
 
-Our group attended the 1st eLTER meeting in Tampere. I presented the work "Interactive Effect of Nitrogen Deposition and Drought on Forest Carbon Sequestration" with data from 47 ICOS+FLUXNET sites.
+    We also visited the [Hyytiälä SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/), which included a forest site (pine) and a peatland site.
 
-We also visited the [Hyytiälä SMEAR II LTER Site](https://anaee.fi/facility/hyytiala-smear-ii/), which included a forest site (pine) and a peatland site.
-
-We also enjoyed the daylight in summer and the sauna in Finland!
+    We also enjoyed the daylight in summer and the sauna in Finland!
+  </li>
+</ul>
 
 </div>
 </section>
@@ -168,11 +193,16 @@ The observation facilities are impressive and the views are breathtaking! Many t
   <div class="news-timeline-date">2025 March</div>
   <div class="news-timeline-content" markdown="1">
 
-It was very nice to meet many collaborators at the 3rd CLEANFOREST meeting and to visit Warsaw and field sites in Kampinos National Park! Many thanks to the organizers and local park staff!
+<ul class="news-subitems">
+  <li>
+    It was very nice to meet many collaborators at the 3rd CLEANFOREST meeting and to visit Warsaw and field sites in Kampinos National Park! Many thanks to the organizers and local park staff!
+  </li>
+  <li>
+    Using a hierarchical assimilation framework, we found that our community needs more than just live biomass to improve process-based models. We call for more measurements of dead biomass and soil carbon to better support modelers!
 
-Using a hierarchical assimilation framework, we found that our community needs more than just live biomass to improve process-based models. We call for more measurements of dead biomass and soil carbon to better support modelers!
-
-Our paper, "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements," is now (finally!) [online](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004622) on JAMES!
+    Our paper, "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements," is now (finally!) [online](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004622) on JAMES!
+  </li>
+</ul>
 
 </div>
 </section>
@@ -187,9 +217,7 @@ I am happy to give a talk at the Grassland Seminar at ETH Zurich to introduce my
 
 Side story: Do you know how much 100 Gt CO2 (the carbon we need to remove from the atmosphere by 2100) is?
 
-It equals the weight of 20 billion elephants!
-
-Generated by ChatGPT.
+It equals the weight of 20 billion elephants! (Generated by ChatGPT)
 
 </div>
 </section>
@@ -254,13 +282,19 @@ My collaborators and I have several presentations:
   <div class="news-timeline-date">2023 July</div>
   <div class="news-timeline-content" markdown="1">
 
-<img src="{{ '/assets/img/news/43017_2023_456_Fig3_HTML.webp' | relative_url }}" alt="2023 July Nature Reviews Earth & Environment figure" class="img-fluid rounded z-depth-1 mb-3">
+<ul class="news-subitems">
+  <li>
+    Call for abstract! Working on Carbon Dioxide Removal? Developing innovative approaches? Evaluating current CDRs for broader application? Submit your work to #AGU2023 Session GC063 - Leveraging Multifaceted Approaches to Carbon Dioxide Removal for Effective Climate Change Mitigation: [https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033](https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033)
+  </li>
+  <li>
+    <img src="{{ '/assets/img/news/43017_2023_456_Fig3_HTML.webp' | relative_url }}" alt="2023 July Nature Reviews Earth & Environment figure" class="img-fluid rounded z-depth-1 mb-3">
 
-Call for abstract! Working on Carbon Dioxide Removal? Developing innovative approaches? Evaluating current CDRs for broader application? Submit your work to #AGU2023 Session GC063 - Leveraging Multifaceted Approaches to Carbon Dioxide Removal for Effective Climate Change Mitigation: [https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033](https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033)
-
-Thrilled to share our new paper in Nature Reviews Earth & Environment! Here, we look into the past to help the future. Evidence and attribution of the enhanced land carbon sink. Full text link: [https://www.nature.com/articles/s43017-023-00456-3](https://www.nature.com/articles/s43017-023-00456-3)
-
-How do we manipulate both the mean and variance of precipitation? Check out our paper about the Sevilleta experiments on the dryland ecosystems in Ecosphere: Infrastructure to factorially manipulate the mean and variance of precipitation in the field.
+    Thrilled to share our new paper in Nature Reviews Earth & Environment! Here, we look into the past to help the future. Evidence and attribution of the enhanced land carbon sink. Full text link: [https://www.nature.com/articles/s43017-023-00456-3](https://www.nature.com/articles/s43017-023-00456-3)
+  </li>
+  <li>
+    How do we manipulate both the mean and variance of precipitation? Check out our paper about the Sevilleta experiments on the dryland ecosystems in Ecosphere: Infrastructure to factorially manipulate the mean and variance of precipitation in the field.
+  </li>
+</ul>
 
 </div>
 </section>
@@ -304,11 +338,15 @@ This work is [online](https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643) in 
   <div class="news-timeline-date">2023 January</div>
   <div class="news-timeline-content" markdown="1">
 
-<img src="{{ '/assets/img/news/MVE.jpg' | relative_url }}" alt="MVE" class="img-fluid rounded z-depth-1 mb-3">
-
+<ul class="news-subitems">
+  <li>
 Our group attended SEV all-hands meeting in Albuquerque, presented ModEx results, and visited the nice field experiment sites!
-
-I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Science at Cornell University! Check out this [website](https://science.ai.cornell.edu/) to explore 2023 postdoc fellowship openings!
+  </li>
+  <li>
+    <img src="{{ '/assets/img/news/MVE.jpg' | relative_url }}" alt="MVE" class="img-fluid rounded z-depth-1 mb-3">
+    I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Science at Cornell University! Check out this [website](https://science.ai.cornell.edu/) to explore 2023 postdoc fellowship openings!
+  </li>
+</ul>
 
 </div>
 </section>
@@ -331,7 +369,7 @@ AGU presentations:
   <div class="news-timeline-date">2022 August</div>
   <div class="news-timeline-content" markdown="1">
 
-<img src="{{ '/assets/img/news/cornell.png' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3">
+<img src="{{ '/assets/img/news/cornell.png' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 50%; max-height: 300px;">
 
 I moved to Ithaca and started my new position as a postdoctoral associate at Cornell University!
 
@@ -401,12 +439,17 @@ Our paper, "Beyond biomass to carbon fluxes: application and evaluation of a com
   <div class="news-timeline-date">2020 December</div>
   <div class="news-timeline-content" markdown="1">
 
-We have two presentations at the AGU fall meeting this year. Check this out!
+<ul class="news-subitems">
+  <li>
+    We have two presentations at the AGU fall meeting this year. Check this out!
 
-- Abstract ID# 743618: Matrix MIP to trace uncertainty in predicting land carbon dynamics lead by Enqing Hou from NAU.
-- Abstract ID# 740452: Constraint of terrestrial model parameters from ensemble forward simulations lead by Sha Feng from PSU.
-
-Our dataset "Ensemble model output of North American atmospheric CO2 simulations for summer 2016, including transport, CASA and CT2017, and boundary condition ensembles" is available on [Penn State Data Commons](https://www.datacommons.psu.edu/commonswizard/MetadataDisplay.aspx?Dataset=6278) now! The resulting "super ensemble" of modeled [CO2] demonstrates that the biosphere introduces the majority of uncertainty to the simulations and that biogenic [CO2] can be lifted by the fronts beyond the top of the atmospheric boundary layer.
+    - Abstract ID# 743618: Matrix MIP to trace uncertainty in predicting land carbon dynamics lead by Enqing Hou from NAU.
+    - Abstract ID# 740452: Constraint of terrestrial model parameters from ensemble forward simulations lead by Sha Feng from PSU.
+  </li>
+  <li>
+    Our dataset "Ensemble model output of North American atmospheric CO2 simulations for summer 2016, including transport, CASA and CT2017, and boundary condition ensembles" is available on [Penn State Data Commons](https://www.datacommons.psu.edu/commonswizard/MetadataDisplay.aspx?Dataset=6278) now! The resulting "super ensemble" of modeled [CO2] demonstrates that the biosphere introduces the majority of uncertainty to the simulations and that biogenic [CO2] can be lifted by the fronts beyond the top of the atmospheric boundary layer.
+  </li>
+</ul>
 
 </div>
 </section>
@@ -476,15 +519,20 @@ Happy new year and welcome to the 2020s!
   <div class="news-timeline-date">2019 December</div>
   <div class="news-timeline-content" markdown="1">
 
-<img src="{{ '/assets/img/news/fengsha.jpg' | relative_url }}" alt="ACT" class="img-fluid rounded z-depth-1 mb-3">
+<ul class="news-subitems">
+  <li>
+    <img src="{{ '/assets/img/news/fengsha.jpg' | relative_url }}" alt="ACT" class="img-fluid rounded z-depth-1 mb-3">
 
-We merge top-down and bottom-up approaches with an ensemble-based, regional modeling system able to diagnose and quantify the causes of uncertainties in top-down atmospheric estimates of the terrestrial sink over North America. Our ensemble approach quantifies and partitions the uncertainty stemming from atmospheric transport, the biosphere, and large-scale CO2 boundary inflow (boundary conditions).
+    We merge top-down and bottom-up approaches with an ensemble-based, regional modeling system able to diagnose and quantify the causes of uncertainties in top-down atmospheric estimates of the terrestrial sink over North America. Our ensemble approach quantifies and partitions the uncertainty stemming from atmospheric transport, the biosphere, and large-scale CO2 boundary inflow (boundary conditions).
 
-Our paper, "Seasonal characteristics of model uncertainties from biogenic fluxes, transport, and large-scale boundary inflow in atmospheric CO2 simulations over North America", is [online](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD031165) in JGR-Atmospheres.
+    Our paper, "Seasonal characteristics of model uncertainties from biogenic fluxes, transport, and large-scale boundary inflow in atmospheric CO2 simulations over North America", is [online](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD031165) in JGR-Atmospheres.
+  </li>
+  <li>
+    I will attend the 2019 AGU fall meeting at San Francisco, CA. I will present our recent work: Linking Biomass Data with Carbon Cycle Modeling in Session B13H - Complexity and Emergent Behavior in the Terrestrial Carbon Sink II Posters.
 
-I will attend the 2019 AGU fall meeting at San Francisco, CA. I will present our recent work: Linking Biomass Data with Carbon Cycle Modeling in Session B13H - Complexity and Emergent Behavior in the Terrestrial Carbon Sink II Posters.
-
-Dr. Williams will present Carbon, Climate, and US Forests: Synthesis of Harvesting, Wood Products, Deforestation, Reforestation, and Natural Disturbance Impacts in Session B027 - Carbon Monitoring Systems Research and Applications.
+    Dr. Williams will present Carbon, Climate, and US Forests: Synthesis of Harvesting, Wood Products, Deforestation, Reforestation, and Natural Disturbance Impacts in Session B027 - Carbon Monitoring Systems Research and Applications.
+  </li>
+</ul>
 
 </div>
 </section>
@@ -518,18 +566,22 @@ Our paper, "Improved simulation of carbon and water fluxes by assimilating multi
 <section class="news-timeline-item">
   <div class="news-timeline-date">2018 December</div>
   <div class="news-timeline-content" markdown="1">
+<ul class="news-subitems">
+  <li>
+    <img src="{{ '/assets/img/news/stone.jpg' | relative_url }}" alt="Central Asia" class="img-fluid rounded z-depth-1 mb-3">
 
-<img src="{{ '/assets/img/news/stone.jpg' | relative_url }}" alt="Central Asia" class="img-fluid rounded z-depth-1 mb-3">
+    Our paper, "Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades," is available [online](https://www.sciencedirect.com/science/article/pii/S0048969718350009) in Science of The Total Environment!
 
-Our paper, "Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades," is available [online](https://www.sciencedirect.com/science/article/pii/S0048969718350009) in Science of The Total Environment!
+    The findings highlight the spatiotemporal changes of institutional and socioeconomic impacts on vegetation productivity in Central Asian drylands and provide implications for future dryland management and restoration efforts.
+  </li>
+  <li>
+    I will attend the 2018 AGU fall meeting in DC, Washington. I will present our recent work: A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results, Y Zhou, CA Williams, T Lauvaux, S Feng, K Keller, KJ Davis in the Session B41J: Advances in Uncertainty Assessment and Reduction for Terrestrial Carbon Cycle Diagnosis and Prediction II Posters, Location: Convention Center; Hall A-C (Poster Hall). Look forward to seeing you there!
 
-The findings highlight the spatiotemporal changes of institutional and socioeconomic impacts on vegetation productivity in Central Asian drylands and provide implications for future dryland management and restoration efforts.
+    Dr. Williams will present: Moving Ecosystem Carbon Cycle Models Forward: Strategies for Improved Assessment and Prediction, Christopher A Williams, Yu Zhou, Huan Gu, Sha Feng, Thomas Lauvaux, Klaus Keller, Kenneth J Davis.
 
-I will attend the 2018 AGU fall meeting in DC, Washington. I will present our recent work: A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results, Y Zhou, CA Williams, T Lauvaux, S Feng, K Keller, KJ Davis in the Session B41J: Advances in Uncertainty Assessment and Reduction for Terrestrial Carbon Cycle Diagnosis and Prediction II Posters, Location: Convention Center; Hall A-C (Poster Hall). Look forward to seeing you there!
-
-Dr. Williams will present: Moving Ecosystem Carbon Cycle Models Forward: Strategies for Improved Assessment and Prediction, Christopher A Williams, Yu Zhou, Huan Gu, Sha Feng, Thomas Lauvaux, Klaus Keller, Kenneth J Davis.
-
-Dr. Feng will present: Quantification of modeled atmospheric CO2 uncertainty from various sources using ACT-America aircraft data, Sha Feng, Thomas Lauvaux, Klaus Keller, Kenneth J Davis, Peter J Rayner, Yu Zhou, Christopher A Williams, David Baker, Andrew E Schuh, S Basu, Junjie Liu.
+    Dr. Feng will present: Quantification of modeled atmospheric CO2 uncertainty from various sources using ACT-America aircraft data, Sha Feng, Thomas Lauvaux, Klaus Keller, Kenneth J Davis, Peter J Rayner, Yu Zhou, Christopher A Williams, David Baker, Andrew E Schuh, S Basu, Junjie Liu.
+  </li>
+</ul>
 
 </div>
 </section>
