@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/YuZhou/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/YuZhou/blog/";
+            window.location.href = "/YuZhou/news/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -58,21 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/YuZhou/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/YuZhou/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/YuZhou/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,16 +426,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/YuZhou/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-at-the-swiss-forest-lab-science-day-in-bern-i-gave-a-talk-about-our-recent-work-on-the-drivers-of-gross-primary-productivity-gpp-changes-in-european-ecosystems-over-the-past-two-decades",
+          title: 'At the Swiss Forest Lab Science Day in Bern, I gave a talk...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-wonder-how-trees-in-dryland-use-water-during-dry-periods-our-new-biogeosciences-paper-shows-that-hydraulic-redistribution-declines-as-precipitation-becomes-larger-and-more-frequent",
+          title: 'Wonder how trees in dryland use water during dry periods? Our new Biogeosciences...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/YuZhou/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-attended-a-workshop-to-discuss-the-progress-of-wg3-of-cleanforest-cost-action-and-visited-the-hyytiälä-smear-ii-lter-site",
+          title: 'I attended a workshop to discuss the progress of WG3 of CLEANFOREST COST...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
