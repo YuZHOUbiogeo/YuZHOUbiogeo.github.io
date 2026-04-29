@@ -54,6 +54,13 @@ nav_order: 3
 </div>
 
 <section class="publication-section">
+  <h2>Selected Publications</h2>
+  <div class="publications">
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  </div>
+</section>
+
+<section class="publication-section">
   <h2>In Review or Revision</h2>
   <ol class="review-list">
     <!-- <li><span class="publication-status">Under review.</span> Gharun, M., Migliavacca, M., Angove, C., Zhou, Y., Buckeridge, K., Branquinho, C., Collalti, A., Nybakken, L., Zhiyanski, M., Sarginci, M., Machacova, K., Guidi C., Koren, G., Ostonen, I., Sell, M., Pers-Kamczyc, E., Aslan, T., Preece, C., Prikaziuk, E., Ozkan, U., Vitali, V., Havrdova, A., Grunzweig, J., Tomelleri, E., Ullah, S., Stoeva, L., Nestola, E., Vanguelova, E., &amp; Guerrieri, R. <span class="publication-title">Effect of global change drivers on carbon fluxes and resilience of European forests.</span> <em>Communications Earth &amp; Environment</em>.</li> -->
@@ -63,7 +70,7 @@ nav_order: 3
 </section>
 
 <section class="publication-section">
-  <h2>Published Articles and Book Chapter</h2>
+  <h2>Published</h2>
   <div class="publications">
     {% bibliography %}
   </div>
