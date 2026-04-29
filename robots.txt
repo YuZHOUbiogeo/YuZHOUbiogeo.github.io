@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yuzhoubiogeo.github.io/YuZhou/sitemap.xml
+Sitemap: https://yuzhoubiogeo.github.io/sitemap.xml
