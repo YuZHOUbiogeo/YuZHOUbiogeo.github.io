@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-models-datasets-amp-code",
-          title: "Models, Datasets &amp; Code",
+        },{id: "nav-models-amp-datasets",
+          title: "Models &amp; Datasets",
           description: "research datasets, model outputs, and code repositories",
           section: "Navigation",
           handler: () => {
