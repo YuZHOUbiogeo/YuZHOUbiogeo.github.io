@@ -22,11 +22,11 @@ nav_order: 4
 
 
     <p>
-      <a href="https://www.linkedin.com/in/yu-zhou-0bb1a0144/">LinkedIn</a> Â·
-      <a href="https://www.researchgate.net/profile/Yu-Zhou-3">ResearchGate</a> Â·
-      <a href="https://scholar.google.com/citations?user=LUfxjnEAAAAJ&amp;hl=en">Google Scholar</a> Â·
-      <a href="https://orcid.org/0000-0002-5544-8342">ORCID</a> Â·
-      <a href="https://x.com/YuZhou_Eco">X</a> Â·
+      <a href="https://www.linkedin.com/in/yu-zhou-0bb1a0144/">LinkedIn</a> ·
+      <a href="https://www.researchgate.net/profile/Yu-Zhou-3">ResearchGate</a> ·
+      <a href="https://scholar.google.com/citations?user=LUfxjnEAAAAJ&amp;hl=en">Google Scholar</a> ·
+      <a href="https://orcid.org/0000-0002-5544-8342">ORCID</a> ·
+      <a href="https://x.com/YuZhou_Eco">X</a> ·
       <a href="https://bsky.app/profile/yuzhou-eco.bsky.social">Bluesky</a>
     </p>
   </div>
@@ -46,9 +46,9 @@ nav_order: 4
     <p>Before joining Prof. Zhang's group, she received B.E. in Surveying and Mapping Engineering from China University of Mining and Technology (Beijing).</p>
 
     <p>
-      <a href="https://scholar.google.com/citations?user=fFo8LSgAAAAJ&amp;hl=en">Google Scholar</a> Â·
-      <a href="https://orcid.org/0000-0001-7328-6300">ORCID</a> Â·
-      <a href="https://www.researchgate.net/profile/Yuqi-Dong-5">ResearchGate</a> Â·
+      <a href="https://scholar.google.com/citations?user=fFo8LSgAAAAJ&amp;hl=en">Google Scholar</a> ·
+      <a href="https://orcid.org/0000-0001-7328-6300">ORCID</a> ·
+      <a href="https://www.researchgate.net/profile/Yuqi-Dong-5">ResearchGate</a> ·
       <a href="http://linkedin.com/in/%E5%AE%87%E7%90%AA-%E8%91%A3-02355b406">LinkedIn</a>
     </p>
   </div>

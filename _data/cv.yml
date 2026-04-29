@@ -2,8 +2,7 @@ cv:
   name: Yu Zhou, Ph.D.
   label: Research Associate, Lecturer
   email: yu.zhou@usys.ethz.ch
-  website: https://yuzhoubiogeo.github.io/YuZhou/
-  summary: Carbon cycle scientist working on nature-based climate solutions, ecosystem ecology, climate-change impacts, process-based modeling, machine learning/artificial intelligence, and remote sensing.
+  website: https://yuzhoubiogeo.github.io
 
   address:
     street: LFW A 7, Universitätstrasse 2
@@ -26,6 +25,7 @@ cv:
         location: Worcester, MA, USA
         area: Geography
         studyType: Ph.D.
+        start_date: 2015
         end_date: 2021
         highlights:
           - 'Dissertation: Improving Carbon Cycle Modeling with Flux Measurements, Forest Inventories, and Satellite Observations'
@@ -33,6 +33,7 @@ cv:
         location: Beijing, China
         area: Geographic Information System and Cartography
         studyType: M.S., with Honors
+        start_date: 2012
         end_date: 2015
         highlights:
           - 'Thesis: Analysis of Spatial and Temporal Patterns of Water Use Efficiency in Central Asia'
@@ -40,6 +41,7 @@ cv:
         location: Qingdao, China
         area: Remote Sensing
         studyType: B.E., with Honors
+        start_date: 2008
         end_date: 2012
 
     Experience:
@@ -100,41 +102,6 @@ cv:
         date: 2014
       - title: First Class Scholarship of Shandong University of Science and Technology
         date: 2008-2012
-
-    Selected Publications:
-      - bullet: 'Zhou, Y.* and Williams, C.A. (2025). Forest carbon modeling improved through hierarchical assimilation of pool-based measurements. Journal of Advances in Modeling Earth Systems, 17(3), e2024MS004622.'
-      - bullet: 'Luo, Y., Wei, N., Lu, X., Zhou, Y., Tao, F., Quan, Q., Liao, C., Jiang, L., Xia, J., Huang, Y. and Niu, S. (2025). Large CO2 removal potential of woody debris preservation in managed forests. Nature Geoscience.'
-      - bullet: 'Ruehr, S., Keenan, T.F., Williams, C., Zhou, Y., Lu, X., Bastos, A., Canadell, J.G., Prentice, I.C., Sitch, S. and Terrer, C. (2023). Evidence and attribution of the enhanced land carbon sink. Nature Reviews Earth & Environment, 4(8), 518-534.'
-      - bullet: 'Zhou, Y.*, Williams, C.A., Hasler, N., Gu, H. and Kennedy, R. (2021). Beyond biomass to carbon fluxes: Application and evaluation of a comprehensive forest carbon monitoring system. Environmental Research Letters, 16(5), 055026.'
-      - bullet: 'Zhou, Y., Williams, C.A., Lauvaux, T., Davis, K.J., Feng, S., Baker, I., Denning, S. and Wei, Y. (2020). A multiyear gridded data ensemble of surface biogenic carbon fluxes for North America: Evaluation and analysis of results. Journal of Geophysical Research: Biogeosciences, 125(2), e2019JG005314.'
-
-    Work in Progress:
-      - bullet: 'Zhou, Y.*, Gharun, M., Xiao, J., Guerrieri, R., Li, X., & Buchmann, N. Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity. Ready to submit.'
-      - bullet: 'Zhou, Y.*, Rudgers, J., Cui, E., Quan, Q., Litvak, M., Collins, S., Pockman, W., Lehmann, J., Xia, J., Wang, R., Sun, Y., You, F., Gomes, C.P., & Luo, Y. Decoupled atmosphere and soil dryness reduces species fitness revealed by functional traits. Ready to submit.'
-      - bullet: 'Gharun, M. et al. Effect of global change drivers on carbon fluxes and resilience of European forests. Communications Earth & Environment. Under review.'
-      - bullet: 'Chandel, A. et al. Hydraulic Redistribution Decreases with Precipitation Magnitude and Frequency in a Dryland Ecosystem: A Data-Model Fusion Approach. Biogeosciences. In revision.'
-      - bullet: 'Zhou, J. et al. The fate of peatland carbon interactively determined by elevated carbon dioxide and warming. Nature. In revision.'
-
-    Book Chapter:
-      - bullet: 'Zhou, Y. (2024). Hybrid Modeling in Earth System Science. In Y. Luo & B. Smith (Eds.), Land Carbon Cycle Modeling Matrix Approach, Data Assimilation, Ecological Forecasting, and Machine Learning. CRC Press/Taylor & Francis.'
-
-    Datasets:
-      - bullet: 'Dong, Y., Zhou, Y., Zhang, L., Tian, F., Xie, Q., Chen, Y., Ruan, L. and Zhang, B. (2024). Global dryland phenology dataset (GDPD), figshare. DOI: 10.6084/m9.figshare.27160602.v2.'
-      - bullet: 'Zhou, Y., Williams, C.A., Lauvaux, T., Feng, S., Baker, I.T., Wei, Y., Denning, A.S., Keller, K. and Davis, K.J. ACT-America: Gridded Ensembles of Surface Biogenic Carbon Fluxes, 2003-2019. ORNL DAAC.'
-      - bullet: 'Williams, C.A., Hasler, N., Gu, H. and Zhou, Y. Forest Carbon Stocks and Fluxes from the NFCMS, Conterminous USA, 1990-2010. ORNL DAAC.'
-
-    Presentations:
-      - bullet: '2026: Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity. Swiss Forest Lab Science Day, Bern, Switzerland.'
-      - bullet: '2025: Interactive Effect of Nitrogen Deposition and Drought on Forest Carbon Sequestration. eLTER meeting, Tampere, Finland.'
-      - bullet: '2025: [Invited] Improved estimation of forest carbon dynamics via model-data fusion. Grassland Seminar, ETH Zurich, Switzerland.'
-      - bullet: '2024: AI-powered interpretation of dryland carbon dynamics. AGU Fall Meeting, Washington DC, USA.'
-      - bullet: '2023: Convergent Pattern of Plant Strategies in Varied Dryness Conditions. AGU Fall Meeting, San Francisco, USA.'
-
-    Services:
-      - bullet: 'Teaching: Global Change Biology, ETH Zurich (2025-present); New Advances in Land Carbon Cycle Modeling, Cornell University (2021-2024); IDCE 310: Introduction to GIS, Clark University (2016); EOG102: Weather and Climate, Clark University (2015).'
-      - bullet: 'Mentorship: Sofia Ferdini; Yuqi Dong; Manfred Lim.'
-      - bullet: 'Conference session: Co-convener and co-chair, AGU2023 Session GC063.'
-      - bullet: 'Peer review: Nature; One Earth; Global Change Biology; Remote Sensing of Environment; Communications Earth & Environment; Journal of Advances in Modeling Earth Systems; Agricultural and Forest Meteorology; Biogeosciences; International Journal of Digital Earth; Ecohydrology; Frontiers in Environmental Science; Land Degradation & Development; Mathematical and Computational Applications; Plant and Soil; Water.'
 
     Languages:
       - name: Mandarin
