@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: About
+nav: true
+nav_order: 7
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Associate, Lecturer
 
 profile:
   align: right
@@ -10,11 +12,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     LFW A 7
-    Universitätstrasse 2
-    8092 Zürich
+    Universitatstrasse 2
+    8092 Zurich
     Switzerland
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true
+cv_on_about: true
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -28,12 +31,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yu Zhou,  a Research Associate from [Prof. Nina Buchmann](https://usys.ethz.ch/en/people/profile.nina-buchmann.html)'s group and Lecturer in the Department of Environmental Systems Science at ETH Zürich. My current research project is CERES: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests. 
+I am Yu Zhou,  a Research Associate from [Prof. Nina Buchmann](https://usys.ethz.ch/en/people/profile.nina-buchmann.html)'s group and Lecturer in the Department of Environmental Systems Science at ETH ZÃ¼rich. My current research project is CERES: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests. 
 
 I was previously a Schmidt AI in Science Postdoctoral Fellow from [Prof. Yiqi Luo](https://ecolab.cals.cornell.edu/?home)'s ECOLAB at the College of Agriculture and Life Sciences(CALS), Cornell University. 
 
 I got my Ph.D. at Clark University in the Graduate School of Geography (2021), supervised by [Prof. Christopher A. Williams](https://www.clarku.edu/faculty/profiles/christopher-williams/), and an M.S. at the Institute of Remote Sensing and Digital Earth (CAS) in Cartography & GIS (2012), supervised by [Prof. Li Zhang](https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html).
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

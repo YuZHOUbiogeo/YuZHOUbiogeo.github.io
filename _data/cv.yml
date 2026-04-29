@@ -1,189 +1,153 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  name: Yu Zhou, Ph.D.
+  label: Research Associate, Lecturer
+  email: yu.zhou@usys.ethz.ch
+  website: https://yuzhoubiogeo.github.io/YuZhou/
+  summary: Carbon cycle scientist working on nature-based climate solutions, ecosystem ecology, climate-change impacts, process-based modeling, machine learning/artificial intelligence, and remote sensing.
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: LFW A 7, Universitätstrasse 2
+    city: Zürich
+    region: Switzerland
+    postalCode: 8092
+    countryCode: CH
+
+  social_networks:
+    - network: Google Scholar
+      username: LUfxjnEAAAAJ
+    - network: GitHub
+      username: YuZHOUbiogeo
+    - network: LinkedIn
+      username: yu-zhou-0bb1a0144
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Clark University
+        location: Worcester, MA, USA
+        area: Geography
+        studyType: Ph.D.
+        end_date: 2021
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - 'Dissertation: Improving Carbon Cycle Modeling with Flux Measurements, Forest Inventories, and Satellite Observations'
+      - institution: Institute of Remote Sensing and Digital Earth
+        location: Beijing, China
+        area: Geographic Information System and Cartography
+        studyType: M.S., with Honors
+        end_date: 2015
         highlights:
-          - Description 1.
-          - Description 2.
+          - 'Thesis: Analysis of Spatial and Temporal Patterns of Water Use Efficiency in Central Asia'
+      - institution: Shandong University of Science and Technology
+        location: Qingdao, China
+        area: Remote Sensing
+        studyType: B.E., with Honors
+        end_date: 2012
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: ETH Zurich
+        position: Research Associate
+        location: Zürich, Switzerland
+        start_date: 2024
+        end_date: present
+        summary: Advised by Prof. Nina Buchmann, Department of Environmental Systems Science.
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - 'SNSF CERES: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests'
+          - 'COST Action CLEANFOREST: Joint effects of climate extremes and atmospheric deposition on European forests'
+      - company: Cornell University
+        position: Schmidt AI for Science Postdoctoral Fellow
+        location: Ithaca, NY, USA
+        start_date: 2022
+        end_date: 2024
+        summary: Advised by Prof. Yiqi Luo and Prof. Carla Gomes.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - 'Schmidt Sciences: AI for Interpreting Dryland Carbon Dynamics'
+      - company: Northern Arizona University
+        position: Postdoctoral Fellow
+        location: Flagstaff, AZ, USA
+        start_date: 2021
+        end_date: 2022
+        summary: Advised by Prof. Yiqi Luo, Center for Ecosystem Science and Society.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - 'DOE LTER: Trait Adaptations to Atmospheric and Soil Aridity Across Dryland Species'
+      - company: Clark University
+        position: Research Assistant
+        location: Worcester, MA, USA
+        start_date: 2016
+        end_date: 2020
+        summary: Advised by Prof. Christopher Williams, School of Geography.
+        highlights:
+          - 'NASA EVS2 ACT-America: Advancing Terrestrial Carbon Cycle Models with Atmospheric Carbon Data'
+          - 'NASA Carbon Monitoring System: Translating Forest Change to Carbon Emissions/Removals'
+
+    Research Interests:
+      - bullet: Carbon cycle science; nature-based climate solutions; ecosystem ecology; climate change impacts; process-based modeling; machine learning/artificial intelligence; remote sensing.
+
+    Grants:
+      - bullet: '2023-2024: Schmidt AI for Science Postdoctoral Fellowship at Cornell University, funded by Schmidt Sciences (USD 150,000).'
+      - bullet: '2017: Sussman Research Grant, Principal Investigator, funded by Edna-Bailey Sussman Foundation (USD 7,275).'
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Group Achievement Award for ACT-America project of NASA
+        date: 2020
+      - title: Purser Dissertation Enhancement Grant, Clark University
+        date: 2019
+      - title: Travel Award of Max Planck Institute, Jena, Germany
+        date: 2017
+      - title: Excellent Thesis Award of Shandong University of Science and Technology
+        date: 2012
+      - title: Libbey Graduate Fellowship, Clark University
+        date: 2016
+      - title: National Scholarship for Graduate Student, Ministry of Education, China
+        date: 2014
+      - title: First Class Scholarship of Shandong University of Science and Technology
+        date: 2008-2012
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Selected Publications:
+      - bullet: 'Zhou, Y.* and Williams, C.A. (2025). Forest carbon modeling improved through hierarchical assimilation of pool-based measurements. Journal of Advances in Modeling Earth Systems, 17(3), e2024MS004622.'
+      - bullet: 'Luo, Y., Wei, N., Lu, X., Zhou, Y., Tao, F., Quan, Q., Liao, C., Jiang, L., Xia, J., Huang, Y. and Niu, S. (2025). Large CO2 removal potential of woody debris preservation in managed forests. Nature Geoscience.'
+      - bullet: 'Ruehr, S., Keenan, T.F., Williams, C., Zhou, Y., Lu, X., Bastos, A., Canadell, J.G., Prentice, I.C., Sitch, S. and Terrer, C. (2023). Evidence and attribution of the enhanced land carbon sink. Nature Reviews Earth & Environment, 4(8), 518-534.'
+      - bullet: 'Zhou, Y.*, Williams, C.A., Hasler, N., Gu, H. and Kennedy, R. (2021). Beyond biomass to carbon fluxes: Application and evaluation of a comprehensive forest carbon monitoring system. Environmental Research Letters, 16(5), 055026.'
+      - bullet: 'Zhou, Y., Williams, C.A., Lauvaux, T., Davis, K.J., Feng, S., Baker, I., Denning, S. and Wei, Y. (2020). A multiyear gridded data ensemble of surface biogenic carbon fluxes for North America: Evaluation and analysis of results. Journal of Geophysical Research: Biogeosciences, 125(2), e2019JG005314.'
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Work in Progress:
+      - bullet: 'Zhou, Y.*, Gharun, M., Xiao, J., Guerrieri, R., Li, X., & Buchmann, N. Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity. Ready to submit.'
+      - bullet: 'Zhou, Y.*, Rudgers, J., Cui, E., Quan, Q., Litvak, M., Collins, S., Pockman, W., Lehmann, J., Xia, J., Wang, R., Sun, Y., You, F., Gomes, C.P., & Luo, Y. Decoupled atmosphere and soil dryness reduces species fitness revealed by functional traits. Ready to submit.'
+      - bullet: 'Gharun, M. et al. Effect of global change drivers on carbon fluxes and resilience of European forests. Communications Earth & Environment. Under review.'
+      - bullet: 'Chandel, A. et al. Hydraulic Redistribution Decreases with Precipitation Magnitude and Frequency in a Dryland Ecosystem: A Data-Model Fusion Approach. Biogeosciences. In revision.'
+      - bullet: 'Zhou, J. et al. The fate of peatland carbon interactively determined by elevated carbon dioxide and warming. Nature. In revision.'
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Book Chapter:
+      - bullet: 'Zhou, Y. (2024). Hybrid Modeling in Earth System Science. In Y. Luo & B. Smith (Eds.), Land Carbon Cycle Modeling Matrix Approach, Data Assimilation, Ecological Forecasting, and Machine Learning. CRC Press/Taylor & Francis.'
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Datasets:
+      - bullet: 'Dong, Y., Zhou, Y., Zhang, L., Tian, F., Xie, Q., Chen, Y., Ruan, L. and Zhang, B. (2024). Global dryland phenology dataset (GDPD), figshare. DOI: 10.6084/m9.figshare.27160602.v2.'
+      - bullet: 'Zhou, Y., Williams, C.A., Lauvaux, T., Feng, S., Baker, I.T., Wei, Y., Denning, A.S., Keller, K. and Davis, K.J. ACT-America: Gridded Ensembles of Surface Biogenic Carbon Fluxes, 2003-2019. ORNL DAAC.'
+      - bullet: 'Williams, C.A., Hasler, N., Gu, H. and Zhou, Y. Forest Carbon Stocks and Fluxes from the NFCMS, Conterminous USA, 1990-2010. ORNL DAAC.'
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Presentations:
+      - bullet: '2026: Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity. Swiss Forest Lab Science Day, Bern, Switzerland.'
+      - bullet: '2025: Interactive Effect of Nitrogen Deposition and Drought on Forest Carbon Sequestration. eLTER meeting, Tampere, Finland.'
+      - bullet: '2025: [Invited] Improved estimation of forest carbon dynamics via model-data fusion. Grassland Seminar, ETH Zurich, Switzerland.'
+      - bullet: '2024: AI-powered interpretation of dryland carbon dynamics. AGU Fall Meeting, Washington DC, USA.'
+      - bullet: '2023: Convergent Pattern of Plant Strategies in Varied Dryness Conditions. AGU Fall Meeting, San Francisco, USA.'
+
+    Services:
+      - bullet: 'Teaching: Global Change Biology, ETH Zurich (2025-present); New Advances in Land Carbon Cycle Modeling, Cornell University (2021-2024); IDCE 310: Introduction to GIS, Clark University (2016); EOG102: Weather and Climate, Clark University (2015).'
+      - bullet: 'Mentorship: Sofia Ferdini; Yuqi Dong; Manfred Lim.'
+      - bullet: 'Conference session: Co-convener and co-chair, AGU2023 Session GC063.'
+      - bullet: 'Peer review: Nature; One Earth; Global Change Biology; Remote Sensing of Environment; Communications Earth & Environment; Journal of Advances in Modeling Earth Systems; Agricultural and Forest Meteorology; Biogeosciences; International Journal of Digital Earth; Ecohydrology; Frontiers in Environmental Science; Land Degradation & Development; Mathematical and Computational Applications; Plant and Soil; Water.'
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Mandarin
+        summary: Native
       - name: English
-        summary: "Fluent"
+        summary: Proficient
+      - name: German
+        summary: Beginner
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Programming
+        keywords:
+          - MATLAB
+          - R
+          - Python
+          - FORTRAN
