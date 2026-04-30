@@ -90,6 +90,7 @@ cv:
         Role: Principal Investigator
         Funding source: Schmidt Sciences
         Amount: USD 150,000
+        
       - Project: Sussman Research Grant
         start_date: 2017
         end_date: 2017

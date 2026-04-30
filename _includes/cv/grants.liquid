@@ -1,0 +1,82 @@
+{% comment %}
+  Grants entry renderer for RenderCV sections.
+  Supports fields used in _data/cv.yml:
+  Project, Role, Funding source, Amount, start_date, end_date, highlights/items/details.
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% capture start_date %}
+            {% if entry.start_date %}{{ entry.start_date }}{% endif %}
+          {% endcapture %}
+          {% capture end_date %}
+            {% if entry.end_date %}{{ entry.end_date }}{% endif %}
+          {% endcapture %}
+
+          {% if start_date != '' %}
+            {% assign startDate = start_date | split: '-' | first %}
+            {% assign endDate = end_date | split: '-' | first | default: startDate %}
+            {% assign date = startDate | append: ' - ' | append: endDate %}
+          {% else %}
+            {% assign date = '' %}
+          {% endif %}
+
+          {% if date != '' %}
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% assign project = entry.Project | default: entry.project | default: entry.title %}
+          {% assign role = entry.Role | default: entry.role %}
+          {% assign funding_source = entry["Funding source"] | default: entry.funding_source | default: entry.funder %}
+          {% assign amount = entry.Amount | default: entry.amount %}
+
+          {% if project %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ project }}</h6>
+          {% endif %}
+
+          {% if role or funding_source or amount %}
+            <div class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {% if role %}
+                <div><strong>Role:</strong> {{ role }}</div>
+              {% endif %}
+              {% if funding_source %}
+                <div><strong>Funding source:</strong> {{ funding_source }}</div>
+              {% endif %}
+              {% if amount %}
+                <div><strong>Amount:</strong> {{ amount }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if entry.summary %}
+            <p class="ml-1 ml-md-4 mt-2">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+
+          {% assign detail_items = entry.highlights | default: entry.items | default: entry.details %}
+          {% if detail_items %}
+            <ul class="items">
+              {% for item in detail_items %}
+                <li>
+                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
