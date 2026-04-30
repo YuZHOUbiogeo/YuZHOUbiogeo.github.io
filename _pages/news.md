@@ -232,6 +232,11 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
     <p>Our paper, "<a href="https://www.nature.com/articles/s41597-025-05519-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250709&utm_content=10.1038/s41597-025-05519-2">An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019</a>", is now online on Scientific Data. We present the Global Dryland Phenology Dataset (GDPD) for 2001-2019, covering 88.4% of global drylands, which compensates for missing regions in other products.</p>
 
     <p>If you are looking for a dryland phenology dataset for your future work, please consider our dataset and access it via our <a href="https://figshare.com/articles/dataset/Global_dryland_phenology_dataset_GDPD_/27160602/2">open-source repository</a>!</p>
+
+    <img src="{{ '/assets/img/news/41597_2025_5519_Fig4_HTML.webp' | relative_url }}" alt="GDPD" class="img-fluid rounded z-depth-1 mb-3">
+
+    <img src="{{ '/assets/img/news/GDPD download.jpg' | relative_url }}" alt="GDPD download 2026-04" class="img-fluid rounded z-depth-1 mb-3">
+
   </li>
 </ul>
 
@@ -271,6 +276,12 @@ We visited the <a href="https://www.hfsjg.ch/en/home/">High Altitude Research St
 
 The observation facilities are impressive and the views are breathtaking! Many thanks to Kukkis and the local scientists and staff for organizing this fantastic trip!
 
+<video controls class="img-fluid rounded z-depth-1 mb-3">
+  <source src="{{ '/assets/img/news/Jungfraujoch.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 </div>
 </section>
 
@@ -286,6 +297,8 @@ The observation facilities are impressive and the views are breathtaking! Many t
     <p>Using a hierarchical assimilation framework, we found that our community needs more than just live biomass to improve process-based models. We call for more measurements of dead biomass and soil carbon to better support modelers!</p>
 
     <p>Our paper, "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements," is now (finally!) <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004622">online</a> on JAMES!</p>
+
+    <img src="{{ '/assets/img/news/HDA.jpg' | relative_url }}" alt="HDA" class="img-fluid rounded z-depth-1 mb-3">
   </li>
 </ul>
 
