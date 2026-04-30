@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching-amp-service",
           title: "Teaching &amp; Service",
-          description: "teaching, mentorship, conference service, and peer review",
+          description: "Teaching, mentorship, conference service, and peer review",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
