@@ -84,8 +84,18 @@ cv:
       - bullet: Carbon cycle science; nature-based climate solutions; ecosystem ecology; climate change impacts; process-based modeling; machine learning/artificial intelligence; remote sensing.
 
     Grants:
-      - bullet: '2023-2024: Schmidt AI for Science Postdoctoral Fellowship at Cornell University, funded by Schmidt Sciences (USD 150,000).'
-      - bullet: '2017: Sussman Research Grant, Principal Investigator, funded by Edna-Bailey Sussman Foundation (USD 7,275).'
+      - Project: Schmidt AI for Science Postdoctoral Fellowship at Cornell University
+        start_date: 2023
+        end_date: 2024
+        Role: Principal Investigator
+        Funding source: Schmidt Sciences
+        Amount: USD 150,000
+      - Project: Sussman Research Grant
+        start_date: 2017
+        end_date: 2017
+        Role: Principal Investigator
+        Funding source: Edna-Bailey Sussman Foundation
+        Amount: USD 7,275
 
     Awards:
       - title: Group Achievement Award for ACT-America project of NASA
