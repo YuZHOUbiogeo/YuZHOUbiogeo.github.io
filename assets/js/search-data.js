@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-news",
+    title: "News",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
+            window.location.href = "/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "members of the lab or group",
+          description: "Members of the YZ group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
         },{id: "nav-models-amp-datasets",
           title: "Models &amp; Datasets",
-          description: "research datasets, model outputs, and code repositories",
+          description: "Research datasets, model outputs, and code repositories",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
