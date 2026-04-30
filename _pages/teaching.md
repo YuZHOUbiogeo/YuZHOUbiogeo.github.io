@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching & Service
-description: teaching, mentorship, conference service, and peer review
+description: Teaching, mentorship, conference service, and peer review
 nav: true
 nav_order: 6
 ---
