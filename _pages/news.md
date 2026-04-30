@@ -186,6 +186,8 @@ I attended a workshop to discuss the progress of WG3 of <a href="https://cleanfo
 
 Wonder how trees in dryland use water during the dry periods? We show that hydraulic redistribution declines as precipitation becomes larger and more frequent, highlighting its key role during dry spells. A data-model fusion approach improves soil moisture predictions in drylands. Here is the <a href="http://bg.copernicus.org/articles/23/2045/2026/">link</a> to this new Biogeosciences paper!
 
+<img src="{{ '/assets/img/news/HR.jpg' | relative_url }}" alt="HR effect" class="img-fluid rounded z-depth-1 mb-3">
+
 </div>
 </section>
 
@@ -212,6 +214,8 @@ At ETH Zurich in Prof. Nina Buchmann's group, we are launching two initiatives f
   <div class="news-timeline-content news-single-item" markdown="1">
 
 Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming"</a> by Quan et al. is now online! See more from <a href="https://news.cornell.edu/stories/2025/10/peatlands-huge-reservoir-carbon-risk-release">Cornell News</a> and <a href="https://research.gatech.edu/peatlands-huge-reservoir-carbon-risk-release">Georgia Tech News</a>!
+
+<img src="{{ '/assets/img/news/science.adv7104-f1.jpg' | relative_url }}" alt="peatland drought" class="img-fluid rounded z-depth-1 mb-3">
 
 </div>
 </section>
