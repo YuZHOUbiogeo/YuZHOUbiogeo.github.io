@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: members of the lab or group
+description: Members of the YZ group
 nav: true
 nav_order: 4
 ---
@@ -14,7 +14,9 @@ nav_order: 4
   <div class="col-sm-8">
     <h2>Yu Zhou <a href="https://drive.google.com/file/d/1U5MNv0vBkq14-mn37JuHfN_3-f91rOYs/view?usp=drive_link">(CV)</a></h2>
 
-    <p>I am Yu Zhou, a Research Associate from <a href="https://usys.ethz.ch/en/people/profile.nina-buchmann.html">Prof. Nina Buchmann</a>'s group and Lecturer in the Department of Environmental Systems Science at ETH ZÃ¼rich. My current research project is <a href="https://gl.ethz.ch/research/bage/ceres.html">CERES</a>: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests.</p>
+    <p>I am Yu Zhou, a Research Associate from <a href="https://usys.ethz.ch/en/people/profile.nina-buchmann.html">Prof. Nina Buchmann</a>'s group and Lecturer in the Department of Environmental Systems Science at ETH Zurich. My current research project is <a href="https://gl.ethz.ch/research/bage/ceres.html">CERES</a>: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests.</p>
+
+    <p>As a global change ecologist, I study how climate change and anthropogenic activities alter ecosystem structure and function, and conversely, how ecosystem dynamics influence climate through nature-based climate solutions. My work is interdisciplinary, integrating ecophysiology, terrestrial biogeochemistry, and geography. It combines time-series field observations, remote sensing, process-based modeling, and machine learning/artificial intelligence (ML/AI) techniques to gain a mechanistic understanding of the ecophysiological processes governing terrestrial carbon cycling. </p>
 
     <p>I was previously a Schmidt AI in Science Postdoctoral Fellow from <a href="https://ecolab.cals.cornell.edu/?home">Prof. Yiqi Luo</a>'s ECOLAB at the College of Agriculture and Life Sciences (CALS), Cornell University.</p>
 

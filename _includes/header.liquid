@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ '/news/' | relative_url }}">
+        <a class="navbar-brand title font-weight-lighter" href="{{ '/' | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -85,7 +85,13 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                {% assign is_active_page = false %}
+                {% if p.url == '/' and page.url == '/' %}
+                  {% assign is_active_page = true %}
+                {% elsif p.url != '/' and page.url contains parent_link %}
+                  {% assign is_active_page = true %}
+                {% endif %}
+                <li class="nav-item {% if is_active_page %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
@@ -95,7 +101,7 @@
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
-                    {% if page.url contains p.url %}
+                    {% if is_active_page %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>

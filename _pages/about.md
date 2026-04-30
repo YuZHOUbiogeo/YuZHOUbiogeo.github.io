@@ -3,7 +3,7 @@ layout: about
 title: About
 nav: false
 nav_order: 7
-permalink: /
+permalink: /about/
 subtitle: Research Associate, Lecturer
 
 profile:
