@@ -171,6 +171,31 @@ nav_order: 1
 }
 </style>
 
+
+<section class="news-timeline-item">
+  <div class="news-timeline-date">2026 May</div>
+  <div class="news-timeline-content" markdown="1">
+
+<ul class="news-subitems">
+  <li>
+    <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub">Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019", is online at One Earth! Thanks to Chongyang for leading this fantastic work! We found that maximum ecosystem photosynthesis has increased, but there is little evidence for a consistent global rise in the temperature optimum. Thermal adjustment explains only a limited share of this increase. Larger contributions come from changes in ecosystem water use and canopy structure, especially under atmospheric and soil dryness. These findings challenge the expectation that thermal acclimation is central to projecting GPP under warming and highlight dynamic physiological-structural shifts that sustain terrestrial carbon uptake.</p>
+
+    <img src="{{ '/assets/img/news/oneearth.jpg' | relative_url }}" alt="GPPmax" class="img-fluid rounded z-depth-1 mb-3">
+
+  </li>
+  <li>
+    <p>I presented two of our recent works at the EGU meeting. And it was really nice to catch up with so many old friends and to meet many new friends! </p>
+
+    <p>1. Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity; Yu Zhou, Mana Gharun, Jingfeng Xiao, Rossella Guerrieri, Xing Li, and Nina Buchmann</p>
+
+    <p>2. Climate Variability Drives Phenological Decoupling of Dryland Photosynthesis from Canopy Greenness and Water Content; Yuqi Dong, Yu Zhou, Li Zhang, Jingfeng Xiao, José M. Grünzweig, and Xing Li</p>
+
+  </li>
+</ul>
+
+</div>
+</section>
+
 <div class="news-timeline"><section class="news-timeline-item">
   <div class="news-timeline-date">2026 April</div>
   <div class="news-timeline-content news-single-item" markdown="1">
