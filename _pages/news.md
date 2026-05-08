@@ -171,14 +171,16 @@ nav_order: 1
 }
 </style>
 
-
+<div class="news-timeline">
 <section class="news-timeline-item">
   <div class="news-timeline-date">2026 May</div>
   <div class="news-timeline-content" markdown="1">
 
 <ul class="news-subitems">
   <li>
-    <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub"> Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019</a>", is online at One Earth! Thanks to Chongyang for leading this fantastic work! We found that maximum ecosystem photosynthesis has increased, but there is little evidence for a consistent global rise in the temperature optimum. Thermal adjustment explains only a limited share of this increase. Larger contributions come from changes in ecosystem water use and canopy structure, especially under atmospheric and soil dryness. These findings challenge the expectation that thermal acclimation is central to projecting GPP under warming and highlight dynamic physiological-structural shifts that sustain terrestrial carbon uptake.</p>
+    <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub"> Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019</a>", is online at One Earth! Thanks to Chongyang for leading this fantastic work!</p>
+    
+    <p>We found that maximum ecosystem photosynthesis has increased, but there is little evidence for a consistent global rise in the temperature optimum. Thermal adjustment explains only a limited share of this increase. Larger contributions come from changes in ecosystem water use and canopy structure, especially under atmospheric and soil dryness. These findings challenge the expectation that thermal acclimation is central to projecting GPP under warming and highlight dynamic physiological-structural shifts that sustain terrestrial carbon uptake.</p>
 
     <img src="{{ '/assets/img/news/oneearth.jpg' | relative_url }}" alt="GPPmax" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -196,7 +198,7 @@ nav_order: 1
 </div>
 </section>
 
-<div class="news-timeline"><section class="news-timeline-item">
+<section class="news-timeline-item">
   <div class="news-timeline-date">2026 April</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
