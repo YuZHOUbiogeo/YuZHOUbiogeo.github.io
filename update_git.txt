@@ -1,0 +1,26 @@
+First use:
+
+git status
+git add .
+git commit -m "Describe what you changed"
+git push origin main
+Only run:
+
+git pull --rebase origin main
+git push origin main
+if the git push origin main step is rejected.
+
+So the rule is:
+
+normal case: add -> commit -> push
+only if push fails: pull --rebase -> push
+If you want the shortest safe version after edits:
+
+git add .
+git commit -m "Update website"
+git push origin main
+
+
+
+
+1:16 PM
