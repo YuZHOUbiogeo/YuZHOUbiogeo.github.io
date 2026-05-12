@@ -186,7 +186,7 @@ nav_order: 1
 
   </li>
   <li>
-    <p>I presented two of our recent works at the EGU meeting. And it was really nice to catch up with so many old friends and to meet many new friends! </p>
+    <p> "<a href="https://cleanforest.eu/"> COST Cleanforest</a>" supported my attendence at the EGU meeting. I presented two of our recent works, and it was really nice to catch up with so many old friends and to meet many new friends! </p>
 
     <p>1. Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity; Yu Zhou, Mana Gharun, Jingfeng Xiao, Rossella Guerrieri, Xing Li, and Nina Buchmann</p>
 
