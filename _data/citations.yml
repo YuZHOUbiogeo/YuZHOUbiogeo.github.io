@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-20'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
-    citations: 27
+    citations: 28
     title: "1982\u20142012 \u5E74\u5168\u7403\u5E72\u65F1\u533A\u690D\u88AB\u53D8\u5316\u53CA\u9A71\u52A8\u56E0\u5B50\u5206\u6790"
     year: '2017'
   LUfxjnEAAAAJ:1sJd4Hv_s6UC:
@@ -98,7 +98,7 @@ papers:
     title: Forest Carbon Stocks and Fluxes After Disturbance, Southeastern USA, 1990-2010. ORNL DAAC, Oak Ridge, Tennessee, USA
     year: '2019'
   LUfxjnEAAAAJ:MXK_kJrjxJIC:
-    citations: 96
+    citations: 98
     title: Increased carbon uptake and water use efficiency in global semi-arid ecosystems
     year: '2020'
   LUfxjnEAAAAJ:NMxIlDl6LWMC:
@@ -134,7 +134,7 @@ papers:
     title: The fate of peatland carbon interactively determined by elevated carbon dioxide and warming
     year: '2024'
   LUfxjnEAAAAJ:TFP_iSt0sucC:
-    citations: 56
+    citations: 59
     title: A modified Vegetation Photosynthesis and Respiration Model (VPRM) for the eastern USA and Canada, evaluated with comparison to atmospheric observations and other biospheric models
     year: '2022'
   LUfxjnEAAAAJ:Tyk-4Ss8FVUC:
@@ -150,11 +150,11 @@ papers:
     title: Contributions of natural and human factors to increases in vegetation productivity in China
     year: '2015'
   LUfxjnEAAAAJ:UebtZRa9Y70C:
-    citations: 27
+    citations: 28
     title: Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical model
     year: '2019'
   LUfxjnEAAAAJ:WF5omc3nYNoC:
-    citations: 61
+    citations: 62
     title: Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades
     year: '2019'
   LUfxjnEAAAAJ:Wp0gIr-vW9MC:
@@ -182,7 +182,7 @@ papers:
     title: 'A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results'
     year: '2018'
   LUfxjnEAAAAJ:_xSYboBqXhAC:
-    citations: 6
+    citations: 8
     title: Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming
     year: '2025'
   LUfxjnEAAAAJ:a0OBvERweLwC:
@@ -194,7 +194,7 @@ papers:
     title: Impacts of disturbance history on annual carbon stocks and fluxes in southeastern US forests during 1986-2010 using remote sensing, forest inventory data, and a carbon cycle model
     year: '2017'
   LUfxjnEAAAAJ:bFI3QPDXJZMC:
-    citations: 2
+    citations: 4
     title: An enhanced phenology dataset for global drylands from 2001 to 2019
     year: '2025'
   LUfxjnEAAAAJ:blknAaTinKkC:
@@ -261,6 +261,10 @@ papers:
     citations: 0
     title: High-resolution (30 m), annual (1986-2010) carbon stocks and fluxes for southeastern US forests derived from remote sensing, inventory data, and a carbon cycle model
     year: '2016'
+  LUfxjnEAAAAJ:nb7KW1ujOQ8C:
+    citations: 0
+    title: Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019
+    year: '2026'
   LUfxjnEAAAAJ:ns9cj8rnVeAC:
     citations: 0
     title: The Biogeochemical Model Database bgc_md2, a Python Package for Fast Comparison and Benchmarking of Element Cycling Models
@@ -298,7 +302,7 @@ papers:
     title: "Forest carbon modeling improved through hierarchical assimilation of pool\u2010based measurements"
     year: '2025'
   LUfxjnEAAAAJ:vV6vV6tmYwMC:
-    citations: 257
+    citations: 262
     title: Evidence and attribution of the enhanced land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:xtRiw3GOFMkC:
@@ -310,6 +314,6 @@ papers:
     title: 'The Hestia Project: High Spatial Resolution Fossil Fuel Carbon Dioxide Emissions Quantification at Hourly Scale in Indianapolis, USA'
     year: '2009'
   LUfxjnEAAAAJ:zYLM7Y9cAGgC:
-    citations: 122
+    citations: 124
     title: Drought events and their effects on vegetation productivity in China
     year: '2016'
