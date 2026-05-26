@@ -178,6 +178,15 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
+    <p>Our review article, "<a href="https://www.sciencedirect.com/science/article/pii/S0378112726003427#fig0010"> Perspectives: Effect of global change drivers on carbon fluxes and resilience of European forests</a>", is online at Forest Ecology and Management! Thanks to Mana for leading this awesome work!</p>
+    
+    <p>We synthesize current understanding of how climate change, drought, atmospheric deposition, elevated CO₂, disturbances, and management jointly shape forest carbon fluxes and ecosystem resilience across Europe. Forest carbon responses are driven by multiple interacting global change factors rather than climate alone. Improving process understanding across scales is essential for next-generation Earth system models and forest management strategies</p>
+
+    <img src="{{ '/assets/img/news/FEM_reviewjpg.jpg' | relative_url }}" alt="EUcarbon" class="img-fluid rounded z-depth-1 mb-3">
+
+  </li>
+
+  <li>
     <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub"> Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019</a>", is online at One Earth! Thanks to Chongyang for leading this fantastic work!</p>
     
     <p>We found that maximum ecosystem photosynthesis has increased, but there is little evidence for a consistent global rise in the temperature optimum. Thermal adjustment explains only a limited share of this increase. Larger contributions come from changes in ecosystem water use and canopy structure, especially under atmospheric and soil dryness. These findings challenge the expectation that thermal acclimation is central to projecting GPP under warming and highlight dynamic physiological-structural shifts that sustain terrestrial carbon uptake.</p>
