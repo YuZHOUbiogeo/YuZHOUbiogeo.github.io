@@ -109,6 +109,19 @@ nav_order: 6
 </section>
 
 <section class="service-section">
+  <h2>Departmental Services</h2>
+  <ol class="service-list">
+    <li>
+      <div class="service-date">ETH USYS 2026</div>
+      <div>
+        <div><span class="service-title">Professorship search committee</span></div>
+        <div class="service-meta">Memeber of Scientific Staff Panel</div>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="service-section">
   <h2>Conference Sessions</h2>
   <ol class="service-list">
     <li>
