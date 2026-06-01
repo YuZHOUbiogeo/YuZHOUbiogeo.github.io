@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-06-01'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
     citations: 28
@@ -22,13 +22,9 @@ papers:
     title: Preserving wood debris towards net-zero carbon emission
     year: '2023'
   LUfxjnEAAAAJ:3fE2CSJIrl8C:
-    citations: 29
+    citations: 30
     title: 'A multiyear gridded data ensemble of surface biogenic carbon fluxes for North America: evaluation and analysis of results'
     year: '2020'
-  LUfxjnEAAAAJ:3s1wT3WcHBgC:
-    citations: 0
-    title: "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool\u2010Based Measurements"
-    year: Unknown Year
   LUfxjnEAAAAJ:4DMP91E08xMC:
     citations: 0
     title: 'What drives uncertainty in model diagnoses of carbon dynamics in southern US forests: climate, vegetation, disturbance, or model parameters?'
@@ -85,6 +81,10 @@ papers:
     citations: 0
     title: "Improving biospheric models of net ecosystem exchange in the eastern U.S. to inform top-down anthropogenic CO2 emission estimates during the growing season \u2026"
     year: '2018'
+  LUfxjnEAAAAJ:KxtntwgDAa4C:
+    citations: 0
+    title: 'Perspectives: Effect of global change drivers on carbon fluxes and resilience of European forests'
+    year: '2026'
   LUfxjnEAAAAJ:LkGwnXOMwfcC:
     citations: 0
     title: 'Moving Ecosystem Carbon Cycle Models Forward: Strategies for Improved Assessment and Prediction'
@@ -98,11 +98,11 @@ papers:
     title: Forest Carbon Stocks and Fluxes After Disturbance, Southeastern USA, 1990-2010. ORNL DAAC, Oak Ridge, Tennessee, USA
     year: '2019'
   LUfxjnEAAAAJ:MXK_kJrjxJIC:
-    citations: 98
+    citations: 99
     title: Increased carbon uptake and water use efficiency in global semi-arid ecosystems
     year: '2020'
   LUfxjnEAAAAJ:NMxIlDl6LWMC:
-    citations: 12
+    citations: 13
     title: "Across\u2010model spread and shrinking in predicting peatland carbon dynamics under global change"
     year: '2023'
   LUfxjnEAAAAJ:NaGl4SEjCO4C:
@@ -134,7 +134,7 @@ papers:
     title: The fate of peatland carbon interactively determined by elevated carbon dioxide and warming
     year: '2024'
   LUfxjnEAAAAJ:TFP_iSt0sucC:
-    citations: 59
+    citations: 61
     title: A modified Vegetation Photosynthesis and Respiration Model (VPRM) for the eastern USA and Canada, evaluated with comparison to atmospheric observations and other biospheric models
     year: '2022'
   LUfxjnEAAAAJ:Tyk-4Ss8FVUC:
@@ -154,7 +154,7 @@ papers:
     title: Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical model
     year: '2019'
   LUfxjnEAAAAJ:WF5omc3nYNoC:
-    citations: 62
+    citations: 64
     title: Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades
     year: '2019'
   LUfxjnEAAAAJ:Wp0gIr-vW9MC:
@@ -282,19 +282,15 @@ papers:
     title: Constraint of terrestrial model parameters from ensemble forward simulations
     year: '2020'
   LUfxjnEAAAAJ:r0BpntZqJG4C:
-    citations: 41
+    citations: 42
     title: "Atmospheric Carbon and Transport\u2013America (ACT\u2010America) data sets: Description, management, and delivery"
     year: '2021'
-  LUfxjnEAAAAJ:rO6llkc54NcC:
-    citations: 0
-    title: Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements
-    year: Unknown Year
   LUfxjnEAAAAJ:roLk4NBRz8UC:
     citations: 0
     title: Quantification of modeled atmospheric CO2 uncertainty from various sources using ACT-America aircraft data
     year: '2018'
   LUfxjnEAAAAJ:u5HHmVD_uO8C:
-    citations: 59
+    citations: 60
     title: A comparison of satellite-derived vegetation indices for approximating gross primary productivity of grasslands
     year: '2014'
   LUfxjnEAAAAJ:u_35RYKgDlwC:
@@ -302,7 +298,7 @@ papers:
     title: "Forest carbon modeling improved through hierarchical assimilation of pool\u2010based measurements"
     year: '2025'
   LUfxjnEAAAAJ:vV6vV6tmYwMC:
-    citations: 262
+    citations: 268
     title: Evidence and attribution of the enhanced land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:xtRiw3GOFMkC:
