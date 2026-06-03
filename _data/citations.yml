@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-03'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
     citations: 28
@@ -182,7 +182,7 @@ papers:
     title: 'A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results'
     year: '2018'
   LUfxjnEAAAAJ:_xSYboBqXhAC:
-    citations: 8
+    citations: 9
     title: Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming
     year: '2025'
   LUfxjnEAAAAJ:a0OBvERweLwC:
@@ -310,6 +310,6 @@ papers:
     title: 'The Hestia Project: High Spatial Resolution Fossil Fuel Carbon Dioxide Emissions Quantification at Hourly Scale in Indianapolis, USA'
     year: '2009'
   LUfxjnEAAAAJ:zYLM7Y9cAGgC:
-    citations: 124
+    citations: 125
     title: Drought events and their effects on vegetation productivity in China
     year: '2016'
