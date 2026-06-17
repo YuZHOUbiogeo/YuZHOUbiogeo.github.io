@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-17'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
     citations: 27
@@ -14,7 +14,7 @@ papers:
     title: Attribution and evidence for historic enhancement of the land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:2osOgNQ5qMEC:
-    citations: 155
+    citations: 156
     title: 'Climate contributions to vegetation variations in central Asian drylands: Pre-and post-USSR collapse'
     year: '2015'
   LUfxjnEAAAAJ:35N4QoGY0k4C:
@@ -98,7 +98,7 @@ papers:
     title: Forest Carbon Stocks and Fluxes After Disturbance, Southeastern USA, 1990-2010. ORNL DAAC, Oak Ridge, Tennessee, USA
     year: '2019'
   LUfxjnEAAAAJ:MXK_kJrjxJIC:
-    citations: 100
+    citations: 101
     title: Increased carbon uptake and water use efficiency in global semi-arid ecosystems
     year: '2020'
   LUfxjnEAAAAJ:NMxIlDl6LWMC:
@@ -210,7 +210,7 @@ papers:
     title: Spatial and temporal distribution of onroad CO2 emissions at the Urban spatial scale
     year: '2011'
   LUfxjnEAAAAJ:f2IySw72cVMC:
-    citations: 5
+    citations: 6
     title: Large CO2 removal potential of woody debris preservation in managed forests
     year: '2025'
   LUfxjnEAAAAJ:fPk4N6BV_jEC:
@@ -282,7 +282,7 @@ papers:
     title: Constraint of terrestrial model parameters from ensemble forward simulations
     year: '2020'
   LUfxjnEAAAAJ:r0BpntZqJG4C:
-    citations: 42
+    citations: 43
     title: "Atmospheric Carbon and Transport\u2013America (ACT\u2010America) data sets: Description, management, and delivery"
     year: '2021'
   LUfxjnEAAAAJ:roLk4NBRz8UC:
@@ -298,7 +298,7 @@ papers:
     title: "Forest carbon modeling improved through hierarchical assimilation of pool\u2010based measurements"
     year: '2025'
   LUfxjnEAAAAJ:vV6vV6tmYwMC:
-    citations: 270
+    citations: 276
     title: Evidence and attribution of the enhanced land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:xtRiw3GOFMkC:
@@ -310,6 +310,6 @@ papers:
     title: 'The Hestia Project: High Spatial Resolution Fossil Fuel Carbon Dioxide Emissions Quantification at Hourly Scale in Indianapolis, USA'
     year: '2009'
   LUfxjnEAAAAJ:zYLM7Y9cAGgC:
-    citations: 125
+    citations: 124
     title: Drought events and their effects on vegetation productivity in China
     year: '2016'
