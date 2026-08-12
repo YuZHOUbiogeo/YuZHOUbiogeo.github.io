@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-12'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
     citations: 27
@@ -42,7 +42,7 @@ papers:
     title: The carbon balance of the southeastern US forest sector as driven by recent disturbance trends
     year: '2019'
   LUfxjnEAAAAJ:8k81kl-MbHgC:
-    citations: 58
+    citations: 59
     title: "Seasonal Characteristics of Model Uncertainties From Biogenic Fluxes, Transport, and Large\u2010Scale Boundary Inflow in Atmospheric CO2 Simulations Over North \u2026"
     year: '2019'
   LUfxjnEAAAAJ:BqipwSGYUEgC:
@@ -98,7 +98,7 @@ papers:
     title: Forest Carbon Stocks and Fluxes After Disturbance, Southeastern USA, 1990-2010. ORNL DAAC, Oak Ridge, Tennessee, USA
     year: '2019'
   LUfxjnEAAAAJ:MXK_kJrjxJIC:
-    citations: 104
+    citations: 105
     title: Increased carbon uptake and water use efficiency in global semi-arid ecosystems
     year: '2020'
   LUfxjnEAAAAJ:NMxIlDl6LWMC:
@@ -139,14 +139,14 @@ papers:
     year: '2022'
   LUfxjnEAAAAJ:Tyk-4Ss8FVUC:
     citations: 13
-    title: The performance of airborne C-band PolInSAR data on forest growth stage types classification
+    title: The performance of airborne c-band polinsar data on forest growth stage types classification
     year: '2017'
   LUfxjnEAAAAJ:ULOm3_A8WrAC:
     citations: 0
     title: The interaction of the flux errors and transport errors in modeled atmospheric carbon dioxide concentrations
     year: '2017'
   LUfxjnEAAAAJ:UeHWp8X0CEIC:
-    citations: 84
+    citations: 83
     title: Contributions of natural and human factors to increases in vegetation productivity in China
     year: '2015'
   LUfxjnEAAAAJ:UebtZRa9Y70C:
@@ -154,7 +154,7 @@ papers:
     title: Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical model
     year: '2019'
   LUfxjnEAAAAJ:WF5omc3nYNoC:
-    citations: 65
+    citations: 66
     title: Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades
     year: '2019'
   LUfxjnEAAAAJ:Wp0gIr-vW9MC:
@@ -191,7 +191,7 @@ papers:
     year: '2024'
   LUfxjnEAAAAJ:aqlVkmm33-oC:
     citations: 0
-    title: Impacts of disturbance history on annual carbon stocks and fluxes in southeastern US forests during 1986-2010 using remote sensing, forest inventory data, and a carbon cycle model
+    title: "Impacts of disturbance history on annual carbon stocks and fluxes in southeastern US forests during 1986-2010 using remote sensing, forest inventory data, and a carbon cycle \u2026"
     year: '2017'
   LUfxjnEAAAAJ:bFI3QPDXJZMC:
     citations: 7
@@ -234,19 +234,15 @@ papers:
     title: Hurricanes substantially reduce the nutrients in tropical forested watersheds in Puerto Rico
     year: '2022'
   LUfxjnEAAAAJ:j3f4tGmQtD8C:
-    citations: 26
+    citations: 25
     title: 'Beyond biomass to carbon fluxes: Application and evaluation of a comprehensive forest carbon monitoring system'
     year: '2021'
-  LUfxjnEAAAAJ:kNdYIx-mwKoC:
-    citations: 0
-    title: 'Quantifying multi-source carbon cycle model uncertainties: Sensitivity analysis, perturbed parameter ensemble, and uncertainty attribution'
-    year: '2018'
   LUfxjnEAAAAJ:k_IJM867U9cC:
     citations: 0
     title: Improving Carbon Cycle Modeling with Flux Measurements, Forest Inventories, and Satellite Observations
     year: '2021'
   LUfxjnEAAAAJ:lSLTfruPkqcC:
-    citations: 13
+    citations: 12
     title: Infrastructure to factorially manipulate the mean and variance of precipitation in the field
     year: '2023'
   LUfxjnEAAAAJ:ldfaerwXgEUC:
@@ -254,7 +250,7 @@ papers:
     title: 'Investigating the Role of Hydraulic Redistribution on Water and Carbon Cycle in Dryland Ecosystems: Empirical and Modeling Approaches'
     year: '2023'
   LUfxjnEAAAAJ:mB3voiENLucC:
-    citations: 74
+    citations: 75
     title: Species diversity with comprehensive annotations of wood-inhabiting poroid and corticioid fungi in Uzbekistan
     year: '2020'
   LUfxjnEAAAAJ:mVmsd5A6BfQC:
@@ -274,7 +270,7 @@ papers:
     title: Community Trait Synergy Enhances Dryland Ecosystem Productivity and Stability
     year: Unknown Year
   LUfxjnEAAAAJ:qjMakFHDy7sC:
-    citations: 59
+    citations: 57
     title: Drought impact on vegetation productivity in the Lower Mekong Basin
     year: '2014'
   LUfxjnEAAAAJ:qxL8FJ1GzNcC:
@@ -290,15 +286,15 @@ papers:
     title: Quantification of modeled atmospheric CO2 uncertainty from various sources using ACT-America aircraft data
     year: '2018'
   LUfxjnEAAAAJ:u5HHmVD_uO8C:
-    citations: 60
+    citations: 61
     title: A comparison of satellite-derived vegetation indices for approximating gross primary productivity of grasslands
     year: '2014'
   LUfxjnEAAAAJ:u_35RYKgDlwC:
-    citations: 3
+    citations: 5
     title: "Forest carbon modeling improved through hierarchical assimilation of pool\u2010based measurements"
     year: '2025'
   LUfxjnEAAAAJ:vV6vV6tmYwMC:
-    citations: 296
+    citations: 298
     title: Evidence and attribution of the enhanced land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:xtRiw3GOFMkC:
@@ -310,6 +306,6 @@ papers:
     title: 'The Hestia Project: High Spatial Resolution Fossil Fuel Carbon Dioxide Emissions Quantification at Hourly Scale in Indianapolis, USA'
     year: '2009'
   LUfxjnEAAAAJ:zYLM7Y9cAGgC:
-    citations: 123
+    citations: 124
     title: Drought events and their effects on vegetation productivity in China
     year: '2016'
