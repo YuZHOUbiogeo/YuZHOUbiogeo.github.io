@@ -173,6 +173,22 @@ nav_order: 1
 
 <div class="news-timeline">
 <section class="news-timeline-item">
+  <div class="news-timeline-date">2026 June</div>
+  <div class="news-timeline-content" markdown="1">
+
+<ul class="news-subitems">
+  <li>
+    <p>It was a great pleasure to attend the final <a href="https://cleanforest.eu/"> CLEANFOREST</a> Annual Meeting at Bologna! We discussed the progress of each WG, and I presented our recent work about how atmospheric deposiiton and dryness affected European ecosystems. </p>
+    
+    <p>Bologna: La Rossa (The Red), La Grassa (The Fat), La Dotta (The Learned).</p>
+
+    <img src="{{ '/assets/img/news/Bologna.jpg' | relative_url }}" alt="Bologna" class="img-fluid rounded z-depth-1 mb-3">
+
+  </li>
+</ul>
+
+<div class="news-timeline">
+<section class="news-timeline-item">
   <div class="news-timeline-date">2026 May</div>
   <div class="news-timeline-content" markdown="1">
 
