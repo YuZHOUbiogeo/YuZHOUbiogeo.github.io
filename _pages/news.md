@@ -187,7 +187,9 @@ nav_order: 1
   </li>
 </ul>
 
-<div class="news-timeline">
+</div>
+</section>
+
 <section class="news-timeline-item">
   <div class="news-timeline-date">2026 May</div>
   <div class="news-timeline-content" markdown="1">
