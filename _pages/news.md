@@ -151,31 +151,36 @@ nav_order: 1
 }
 .news-photo-gallery {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.9fr);
-  grid-template-rows: repeat(2, minmax(0, 10rem));
-  gap: 0.5rem;
-  max-width: min(100%, 42rem);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  max-width: min(100%, 44rem);
   margin-top: 0.75rem;
 }
 
 .news-photo-gallery figure {
   margin: 0;
-  overflow: hidden;
-  border-radius: 0.25rem;
-  background: var(--global-bg-color);
 }
 
-.news-photo-gallery figure:first-child {
-  grid-row: span 2;
+.news-photo-gallery a {
+  display: block;
 }
 
 .news-photo-gallery img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 9rem;
   max-width: none;
   max-height: none;
   object-fit: cover;
+  border-radius: 0.25rem;
+  background: var(--global-bg-color);
+}
+
+.news-photo-gallery figcaption {
+  margin-top: 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.35;
 }
 
 @media (max-width: 575.98px) {
@@ -198,13 +203,11 @@ nav_order: 1
   }
   .news-photo-gallery {
     grid-template-columns: 1fr;
-    grid-template-rows: none;
     max-width: 100%;
   }
 
-  .news-photo-gallery figure,
-  .news-photo-gallery figure:first-child {
-    grid-row: auto;
+  .news-photo-gallery img {
+    height: auto;
     aspect-ratio: 4 / 3;
   }
 }
@@ -222,13 +225,22 @@ nav_order: 1
     <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
     <div class="news-photo-gallery">
       <figure>
-        <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot ICOS forest site">
+        <a href="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}">
+          <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot ICOS forest site">
+        </a>
+        <figcaption>Lanzhot ICOS forest site</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Kresin tall tower site">
+        <a href="{{ '/assets/img/news/tall tower.jpg' | relative_url }}">
+          <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Kresin u Pacova tall tower">
+        </a>
+        <figcaption>Kresin u Pacova tall tower</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="View from the Kresin tall tower">
+        <a href="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}">
+          <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="View from the Kresin u Pacova tall tower">
+        </a>
+        <figcaption>View from the tall tower</figcaption>
       </figure>
     </div>
   </li>
