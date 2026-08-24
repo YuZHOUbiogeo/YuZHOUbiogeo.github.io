@@ -173,6 +173,28 @@ nav_order: 1
 
 <div class="news-timeline">
 <section class="news-timeline-item">
+  <div class="news-timeline-date">2026 August</div>
+  <div class="news-timeline-content" markdown="1">
+
+<ul class="news-subitems">
+  <li>
+    <p> We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/"> CzechGlobe</a> collegues at Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues. </p>
+    
+    <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
+
+    <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
+    <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
+
+  </li>
+</ul>
+
+</div>
+</section>
+
+
+<div class="news-timeline">
+<section class="news-timeline-item">
   <div class="news-timeline-date">2026 June</div>
   <div class="news-timeline-content" markdown="1">
 
