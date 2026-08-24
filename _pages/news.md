@@ -149,6 +149,34 @@ nav_order: 1
   object-fit: contain;
   background: var(--global-bg-color);
 }
+.news-photo-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.9fr);
+  grid-template-rows: repeat(2, minmax(0, 10rem));
+  gap: 0.5rem;
+  max-width: min(100%, 42rem);
+  margin-top: 0.75rem;
+}
+
+.news-photo-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background: var(--global-bg-color);
+}
+
+.news-photo-gallery figure:first-child {
+  grid-row: span 2;
+}
+
+.news-photo-gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+}
 
 @media (max-width: 575.98px) {
   .news-timeline::before {
@@ -168,6 +196,17 @@ nav_order: 1
     left: -1.75rem;
     right: auto;
   }
+  .news-photo-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    max-width: 100%;
+  }
+
+  .news-photo-gallery figure,
+  .news-photo-gallery figure:first-child {
+    grid-row: auto;
+    aspect-ratio: 4 / 3;
+  }
 }
 </style>
 
@@ -181,19 +220,23 @@ nav_order: 1
     <p> We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/"> CzechGlobe</a> collegues at Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues. </p>
     
     <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
-
-    <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
-    <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
-    <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="Lanzhot" class="img-fluid rounded z-depth-1 mb-3">
-
+    <div class="news-photo-gallery">
+      <figure>
+        <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot ICOS forest site">
+      </figure>
+      <figure>
+        <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Kresin tall tower site">
+      </figure>
+      <figure>
+        <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="View from the Kresin tall tower">
+      </figure>
+    </div>
   </li>
 </ul>
 
 </div>
 </section>
 
-
-<div class="news-timeline">
 <section class="news-timeline-item">
   <div class="news-timeline-date">2026 June</div>
   <div class="news-timeline-content" markdown="1">
