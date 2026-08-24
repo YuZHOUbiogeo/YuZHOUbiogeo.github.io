@@ -150,9 +150,6 @@ nav_order: 1
   background: var(--global-bg-color);
 }
 .news-photo-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.75rem;
   max-width: min(100%, 44rem);
   margin-top: 0.75rem;
 }
@@ -161,17 +158,17 @@ nav_order: 1
   margin: 0;
 }
 
-.news-photo-gallery a {
+.news-photo-gallery-main a {
   display: block;
 }
 
-.news-photo-gallery img {
+.news-photo-gallery-main img {
   display: block;
   width: 100%;
-  height: 9rem;
+  height: auto;
   max-width: none;
-  max-height: none;
-  object-fit: cover;
+  max-height: 360px;
+  object-fit: contain;
   border-radius: 0.25rem;
   background: var(--global-bg-color);
 }
@@ -181,6 +178,36 @@ nav_order: 1
   color: var(--global-text-color-light);
   font-size: 0.85rem;
   line-height: 1.35;
+}
+
+.news-photo-gallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.news-photo-gallery-thumbs button {
+  display: block;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.news-photo-gallery-thumbs button.is-active {
+  border-color: var(--global-theme-color);
+}
+
+.news-photo-gallery-thumbs img {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  border-radius: 0.15rem;
 }
 
 @media (max-width: 575.98px) {
@@ -202,13 +229,19 @@ nav_order: 1
     right: auto;
   }
   .news-photo-gallery {
-    grid-template-columns: 1fr;
     max-width: 100%;
   }
 
-  .news-photo-gallery img {
-    height: auto;
+  .news-photo-gallery-main img {
     aspect-ratio: 4 / 3;
+  }
+
+  .news-photo-gallery-thumbs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .news-photo-gallery-thumbs img {
+    height: 4.5rem;
   }
 }
 </style>
@@ -223,25 +256,24 @@ nav_order: 1
     <p> We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/"> CzechGlobe</a> collegues at Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues. </p>
     
     <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
-    <div class="news-photo-gallery">
-      <figure>
-        <a href="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}">
-          <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot ICOS forest site">
+    <div class="news-photo-gallery" data-news-gallery>
+      <figure class="news-photo-gallery-main">
+        <a href="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" data-gallery-link>
+          <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="Lanzhot ICOS forest site" data-gallery-main>
         </a>
-        <figcaption>Lanzhot ICOS forest site</figcaption>
+        <figcaption data-gallery-caption>Lanzhot ICOS forest site</figcaption>
       </figure>
-      <figure>
-        <a href="{{ '/assets/img/news/tall tower.jpg' | relative_url }}">
-          <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="Kresin u Pacova tall tower">
-        </a>
-        <figcaption>Kresin u Pacova tall tower</figcaption>
-      </figure>
-      <figure>
-        <a href="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}">
-          <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="View from the Kresin u Pacova tall tower">
-        </a>
-        <figcaption>View from the tall tower</figcaption>
-      </figure>
+      <div class="news-photo-gallery-thumbs" aria-label="August news photos">
+        <button type="button" class="is-active" data-gallery-thumb data-image="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" data-alt="Lanzhot ICOS forest site" data-caption="Lanzhot ICOS forest site" aria-label="Show Lanzhot ICOS forest site">
+          <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="">
+        </button>
+        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" data-alt="Kresin u Pacova tall tower" data-caption="Kresin u Pacova tall tower" aria-label="Show Kresin u Pacova tall tower">
+          <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="">
+        </button>
+        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" data-alt="View from the Kresin u Pacova tall tower" data-caption="View from the tall tower" aria-label="Show view from the tall tower">
+          <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="">
+        </button>
+      </div>
     </div>
   </li>
 </ul>
@@ -956,3 +988,23 @@ We examined the relationships between the nine VIs derived from the moderate-res
 </div>
 </section>
 </div>
+
+<script>
+  document.querySelectorAll("[data-news-gallery]").forEach((gallery) => {
+    const main = gallery.querySelector("[data-gallery-main]");
+    const link = gallery.querySelector("[data-gallery-link]");
+    const caption = gallery.querySelector("[data-gallery-caption]");
+    const thumbs = gallery.querySelectorAll("[data-gallery-thumb]");
+
+    thumbs.forEach((thumb) => {
+      thumb.addEventListener("click", () => {
+        thumbs.forEach((item) => item.classList.remove("is-active"));
+        thumb.classList.add("is-active");
+        main.src = thumb.dataset.image;
+        main.alt = thumb.dataset.alt;
+        link.href = thumb.dataset.image;
+        caption.textContent = thumb.dataset.caption;
+      });
+    });
+  });
+</script>
