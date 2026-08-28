@@ -41,9 +41,9 @@ nav_order: 4
     <img src="{{ '/assets/img/people/YuqiDong.png' | relative_url }}" alt="Yuqi Dong" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
-    <h2>Yuqi Dong <a href="https://drive.google.com/file/d/1TxyitOi5mMuhCZVEtQUuDBy590HzmrSk/view?usp=sharing">(CV)</a></h2>
+    <h2>Dr. Yuqi Dong <a href="https://drive.google.com/file/d/1TxyitOi5mMuhCZVEtQUuDBy590HzmrSk/view?usp=sharing">(CV)</a></h2>
 
-    <p>Yuqi Dong is a Ph.D. candidate in Cartography and Geographic Information Systems at the Aerospace Information Research Institute, Chinese Academy of Sciences. Her research focuses on the responses of vegetation phenology and productivity to climate change in global drylands. I am co-supervising her with <a href="https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html">Prof. Li Zhang</a> from 2021.</p>
+    <p> Dr. Yuqi Dong got her Ph.D. in Cartography and Geographic Information Systems at the Aerospace Information Research Institute, Chinese Academy of Sciences. Her research focuses on the responses of vegetation phenology and productivity to climate change in global drylands. I am co-supervising her with <a href="https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html">Prof. Li Zhang</a> from 2021.</p>
 
     <p>Before joining Prof. Zhang's group, she received B.E. in Surveying and Mapping Engineering from China University of Mining and Technology (Beijing).</p>
 
