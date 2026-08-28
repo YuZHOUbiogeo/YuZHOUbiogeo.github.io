@@ -253,6 +253,13 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
+      <p>Congrats to Yuqi on her successful defense of her doctoral dissertation! She has published three first-author articles and eight co-authored articles, with two more articles in preparation. Very impressive! Looking forward to hearing more from you, Dr. Dong!</p>
+
+      <img src="{{ '/assets/img/news/Yuqi.jpg' | relative_url }}" alt="Yuqi _dotcoral defense" class="img-fluid rounded z-depth-1 mb-3">
+
+  </li>
+    
+  <li>
     <p> We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/"> CzechGlobe</a> collegues at Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues. </p>
     
     <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
