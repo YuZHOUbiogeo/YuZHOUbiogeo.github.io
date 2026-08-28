@@ -12,7 +12,7 @@ nav_order: 4
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Yu Zhou" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
-    <h2>Yu Zhou <a href="https://drive.google.com/file/d/1U5MNv0vBkq14-mn37JuHfN_3-f91rOYs/view?usp=drive_link">(CV)</a></h2>
+    <h2>Dr. Yu Zhou <a href="https://drive.google.com/file/d/1U5MNv0vBkq14-mn37JuHfN_3-f91rOYs/view?usp=drive_link">(CV)</a></h2>
 
     <p>I am Yu Zhou, a Research Associate from <a href="https://usys.ethz.ch/en/people/profile.nina-buchmann.html">Prof. Nina Buchmann</a>'s group and Lecturer in the Department of Environmental Systems Science at ETH Zurich. My current research project is <a href="https://gl.ethz.ch/research/bage/ceres.html">CERES</a>: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests.</p>
 
