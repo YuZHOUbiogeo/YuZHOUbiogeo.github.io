@@ -7,11 +7,25 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+.people-photo {
+  display: block;
+  max-width: 220px;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .people-photo {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+}
+</style>
 <div class="row align-items-start mb-5">
-  <div class="col-sm-4 mb-3">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Yu Zhou" class="img-fluid rounded z-depth-1">
+  <div class="col-sm-3 mb-3">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Yu Zhou" class="people-photo img-fluid rounded z-depth-1">
   </div>
-  <div class="col-sm-8">
+  <div class="col-sm-9">
     <h2>Dr. Yu Zhou <a href="https://drive.google.com/file/d/1U5MNv0vBkq14-mn37JuHfN_3-f91rOYs/view?usp=drive_link">(CV)</a></h2>
 
     <p>I am Yu Zhou, a Research Associate from <a href="https://usys.ethz.ch/en/people/profile.nina-buchmann.html">Prof. Nina Buchmann</a>'s group and Lecturer in the Department of Environmental Systems Science at ETH Zurich. My current research project is <a href="https://gl.ethz.ch/research/bage/ceres.html">CERES</a>: Impacts of Air Pollution and Climate Extremes on the Resilience of European Forests.</p>
@@ -37,10 +51,10 @@ nav_order: 4
 <hr>
 
 <div class="row align-items-start mb-5">
-  <div class="col-sm-4 mb-3">
-    <img src="{{ '/assets/img/people/YuqiDong.png' | relative_url }}" alt="Yuqi Dong" class="img-fluid rounded z-depth-1">
+  <div class="col-sm-3 mb-3">
+    <img src="{{ '/assets/img/people/YuqiDong.png' | relative_url }}" alt="Yuqi Dong" class="people-photo img-fluid rounded z-depth-1">
   </div>
-  <div class="col-sm-8">
+  <div class="col-sm-9">
     <h2>Dr. Yuqi Dong <a href="https://drive.google.com/file/d/1TxyitOi5mMuhCZVEtQUuDBy590HzmrSk/view?usp=sharing">(CV)</a></h2>
 
     <p> Dr. Yuqi Dong got her Ph.D. in Cartography and Geographic Information Systems at the Aerospace Information Research Institute, Chinese Academy of Sciences. Her research focuses on the responses of vegetation phenology and productivity to climate change in global drylands. I  co-supervised her Ph.D. with <a href="https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html">Prof. Li Zhang</a> from 2021.</p>
