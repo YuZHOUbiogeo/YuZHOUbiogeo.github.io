@@ -143,9 +143,13 @@ nav_order: 1
 .news-timeline-content {
   min-width: 0;
 }
-.news-timeline-content img {
-  max-width: 80%;
-  max-height: 360px;
+.news-timeline-content > img,
+.news-timeline-content li > img,
+.news-timeline-content video {
+  display: block;
+  width: auto;
+  max-width: min(100%, 34rem);
+  max-height: 320px;
   object-fit: contain;
   background: var(--global-bg-color);
 }
@@ -228,6 +232,14 @@ nav_order: 1
     left: -1.75rem;
     right: auto;
   }
+  .news-timeline-content > img,
+  .news-timeline-content li > img,
+  .news-timeline-content video {
+    width: 100%;
+    max-width: 100%;
+    max-height: 260px;
+  }
+
   .news-photo-gallery {
     max-width: 100%;
   }
@@ -253,16 +265,16 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
-      <p>Congrats to Yuqi on her successful defense of her doctoral dissertation! I had the privilege of co-supervising her during her PhD journey. She has published three first-author articles and eight co-authored articles, with two more articles in preparation. Very impressive! Looking forward to hearing more from you, Dr. Dong!</p>
+      <p>Congratulations to Yuqi on successfully defending her doctoral dissertation! I had the privilege of co-supervising her during her PhD journey. She has published three first-author articles and eight co-authored articles, with two more articles in preparation. Very impressive! I look forward to hearing more from you, Dr. Dong!</p>
 
-      <img src="{{ '/assets/img/news/Yuqi.jpg' | relative_url }}" alt="Yuqi _dotcoral defense" class="img-fluid rounded z-depth-1 mb-3">
+      <img src="{{ '/assets/img/news/Yuqi.jpg' | relative_url }}" alt="Yuqi doctoral defense" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
     
   <li>
-    <p> We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/"> CzechGlobe</a> collegues at Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues. </p>
+    <p>We organized the INETFLUX Workshop on Machine Learning Techniques with <a href="https://www.czechglobe.cz/en/">CzechGlobe</a> colleagues in Brno. We really enjoyed our stay and the discussions with CzechGlobe colleagues.</p>
     
-    <p> We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"> Lanzhot</a>, a Deciduous Broadleaf Forests site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE"> Křešín u Pacova</a>, a 250-m Tall Tower. Many thanks for warmly hosting us in Brno.</p>
+    <p>We were excited to visit two ICOS sites: <a href="https://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz">Lanzhot</a>, a deciduous broadleaf forest site, and <a href="https://meta.icos-cp.eu/resources/stations/AS_KRE">Křešín u Pacova</a>, a 250-m tall tower. Many thanks for warmly hosting us in Brno.</p>
     <div class="news-photo-gallery" data-news-gallery>
       <figure class="news-photo-gallery-main">
         <a href="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" data-gallery-link>
@@ -274,10 +286,10 @@ nav_order: 1
         <button type="button" class="is-active" data-gallery-thumb data-image="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" data-alt="Lanzhot ICOS forest site" data-caption="Lanzhot ICOS forest site" aria-label="Show Lanzhot ICOS forest site">
           <img src="{{ '/assets/img/news/Lanzhot.jpg' | relative_url }}" alt="">
         </button>
-        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" data-alt="Kresin u Pacova tall tower" data-caption="Kresin u Pacova tall tower" aria-label="Show Kresin u Pacova tall tower">
+        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" data-alt="Křešín u Pacova tall tower" data-caption="Křešín u Pacova tall tower" aria-label="Show Křešín u Pacova tall tower">
           <img src="{{ '/assets/img/news/tall tower.jpg' | relative_url }}" alt="">
         </button>
-        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" data-alt="View from the Kresin u Pacova tall tower" data-caption="View from the tall tower" aria-label="Show view from the tall tower">
+        <button type="button" data-gallery-thumb data-image="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" data-alt="View from the Křešín u Pacova tall tower" data-caption="View from the tall tower" aria-label="Show view from the tall tower">
           <img src="{{ '/assets/img/news/tall tower 2.jpg' | relative_url }}" alt="">
         </button>
       </div>
@@ -294,7 +306,7 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
-    <p>It was a great pleasure to attend the final <a href="https://cleanforest.eu/"> CLEANFOREST</a> Annual Meeting at Bologna! We discussed the progress of each WG, and I presented our recent work about how atmospheric deposiiton and dryness affected European ecosystems. </p>
+    <p>It was a great pleasure to attend the final <a href="https://cleanforest.eu/">CLEANFOREST</a> Annual Meeting in Bologna! We discussed the progress of each working group, and I presented our recent work on how atmospheric deposition and dryness affect European ecosystems.</p>
     
     <p>Bologna: La Rossa (The Red), La Grassa (The Fat), La Dotta (The Learned).</p>
 
@@ -312,16 +324,16 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
-    <p>Our review article, "<a href="https://www.sciencedirect.com/science/article/pii/S0378112726003427#fig0010"> Perspectives: Effect of global change drivers on carbon fluxes and resilience of European forests</a>", is online at Forest Ecology and Management! Thanks to Mana for leading this awesome work!</p>
+    <p>Our review article, "<a href="https://www.sciencedirect.com/science/article/pii/S0378112726003427#fig0010">Perspectives: Effect of global change drivers on carbon fluxes and resilience of European forests</a>," is online in Forest Ecology and Management. Thanks to Mana for leading this excellent work!</p>
     
-    <p>We synthesize current understanding of how climate change, drought, atmospheric deposition, elevated CO₂, disturbances, and management jointly shape forest carbon fluxes and ecosystem resilience across Europe. Forest carbon responses are driven by multiple interacting global change factors rather than climate alone. Improving process understanding across scales is essential for next-generation Earth system models and forest management strategies</p>
+    <p>We synthesize current understanding of how climate change, drought, atmospheric deposition, elevated CO₂, disturbances, and management jointly shape forest carbon fluxes and ecosystem resilience across Europe. Forest carbon responses are driven by multiple interacting global change factors rather than climate alone. Improving process understanding across scales is essential for next-generation Earth system models and forest management strategies.</p>
 
     <img src="{{ '/assets/img/news/FEM_reviewjpg.jpg' | relative_url }}" alt="EUcarbon" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
 
   <li>
-    <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub"> Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019</a>", is online at One Earth! Thanks to Chongyang for leading this fantastic work!</p>
+    <p>Our paper, "<a href="https://www.sciencedirect.com/science/article/pii/S2590332226001041?via%3Dihub">Photosynthetic optimum temperature plays a minor role in the increase of terrestrial carbon uptake from 2000 to 2019</a>," is online in One Earth. Thanks to Chongyang for leading this fantastic work!</p>
     
     <p>We found that maximum ecosystem photosynthesis has increased, but there is little evidence for a consistent global rise in the temperature optimum. Thermal adjustment explains only a limited share of this increase. Larger contributions come from changes in ecosystem water use and canopy structure, especially under atmospheric and soil dryness. These findings challenge the expectation that thermal acclimation is central to projecting GPP under warming and highlight dynamic physiological-structural shifts that sustain terrestrial carbon uptake.</p>
 
@@ -329,7 +341,7 @@ nav_order: 1
 
   </li>
   <li>
-    <p> <a href="https://cleanforest.eu/">COST CLEANFOREST Action</a> supported my attendence at the EGU meeting. I presented two of our recent works, and it was really nice to catch up with so many old friends and to meet many new friends! </p>
+    <p><a href="https://cleanforest.eu/">COST CLEANFOREST Action</a> supported my attendance at the EGU meeting. I presented two of our recent studies, and it was wonderful to catch up with old friends and meet many new ones.</p>
 
     <p>1. Atmospheric Deposition Outweighs Dryness in Regulating European Ecosystem Productivity; Yu Zhou, Mana Gharun, Jingfeng Xiao, Rossella Guerrieri, Xing Li, and Nina Buchmann</p>
 
@@ -345,7 +357,7 @@ nav_order: 1
   <div class="news-timeline-date">2026 April</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-I attended a workshop to discuss the progress of WG3 of <a href="https://cleanforest.eu/">CLEANFOREST COST Action</a>. It was also my second time visit to the <a href="https://anaee.fi/facility/hyytiala-smear-ii/">Hyytiälä SMEAR II LTER Site</a>.
+I attended a workshop to discuss the progress of WG3 of the <a href="https://cleanforest.eu/">CLEANFOREST COST Action</a>. It was also my second visit to the <a href="https://anaee.fi/facility/hyytiala-smear-ii/">Hyytiälä SMEAR II LTER Site</a>.
 
 </div>
 </section>
@@ -354,7 +366,7 @@ I attended a workshop to discuss the progress of WG3 of <a href="https://cleanfo
   <div class="news-timeline-date">2026 March</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Wonder how trees in dryland use water during the dry periods? We show that hydraulic redistribution declines as precipitation becomes larger and more frequent, highlighting its key role during dry spells. A data-model fusion approach improves soil moisture predictions in drylands. Here is the <a href="http://bg.copernicus.org/articles/23/2045/2026/">link</a> to this new Biogeosciences paper!
+Wondering how trees in drylands use water during dry periods? We show that hydraulic redistribution declines as precipitation becomes larger and more frequent, highlighting its key role during dry spells. A data-model fusion approach improves soil moisture predictions in drylands. Here is the <a href="http://bg.copernicus.org/articles/23/2045/2026/">link</a> to this new Biogeosciences paper.
 
 <img src="{{ '/assets/img/news/HR.jpg' | relative_url }}" alt="HR effect" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -383,7 +395,7 @@ At ETH Zurich in Prof. Nina Buchmann's group, we are launching two initiatives f
   <div class="news-timeline-date">2025 October</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming"</a> by Quan et al. is now online! See more from <a href="https://news.cornell.edu/stories/2025/10/peatlands-huge-reservoir-carbon-risk-release">Cornell News</a> and <a href="https://research.gatech.edu/peatlands-huge-reservoir-carbon-risk-release">Georgia Tech News</a>!
+The Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming"</a> by Quan et al. is now online. Read more from <a href="https://news.cornell.edu/stories/2025/10/peatlands-huge-reservoir-carbon-risk-release">Cornell News</a> and <a href="https://research.gatech.edu/peatlands-huge-reservoir-carbon-risk-release">Georgia Tech News</a>.
 
 <img src="{{ '/assets/img/news/science.adv7104-f1.jpg' | relative_url }}" alt="peatland drought" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -396,12 +408,12 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
 
 <ul class="news-subitems">
   <li>
-    <p>Our paper, "Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming", has been accepted by Science! Thanks to Quan for leading this fantastic work!</p>
+    <p>Our paper, "Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming," has been accepted by Science. Thanks to Quan for leading this fantastic work!</p>
   </li>
   <li>
-    <p>Our paper, "<a href="https://www.nature.com/articles/s41597-025-05519-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250709&utm_content=10.1038/s41597-025-05519-2">An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019</a>", is now online on Scientific Data. We present the Global Dryland Phenology Dataset (GDPD) for 2001-2019, covering 88.4% of global drylands, which compensates for missing regions in other products.</p>
+    <p>Our paper, "<a href="https://www.nature.com/articles/s41597-025-05519-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250709&utm_content=10.1038/s41597-025-05519-2">An Enhanced Phenology Dataset for Global Drylands from 2001 to 2019</a>", is now online in Scientific Data. We present the Global Dryland Phenology Dataset (GDPD) for 2001-2019, covering 88.4% of global drylands and filling spatial gaps in other products.</p>
 
-    <p>If you are looking for a dryland phenology dataset for your future work, please consider our dataset and access it via our <a href="https://figshare.com/articles/dataset/Global_dryland_phenology_dataset_GDPD_/27160602/2">open-source repository</a>!</p>
+    <p>If you are looking for a dryland phenology dataset for future work, please consider using our dataset, available through our <a href="https://figshare.com/articles/dataset/Global_dryland_phenology_dataset_GDPD_/27160602/2">open-source repository</a>.</p>
 
     <img src="{{ '/assets/img/news/41597_2025_5519_Fig4_HTML.webp' | relative_url }}" alt="GDPD" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -419,7 +431,7 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
 
 <ul class="news-subitems">
   <li>
-    <p>Our paper, "<a href="https://www.nature.com/articles/s41561-025-01731-2">Large CO2 removal potential of woody debris preservation in managed forests</a>", is now available online at Nature Geoscience. One key message is that To Slow Global Warming, Bury Wood Debris, as the headline from <a href="https://news.cornell.edu/stories/2025/06/slow-global-warming-bury-wood-debris">Cornell News</a>. Our study shows that burying this woody biomass over the next 76 years could remove between 770 and 937 gigatons of CO2 from the atmosphere, or between 10.1 and 12.3 gigatons of CO2 per year.</p>
+    <p>Our paper, "<a href="https://www.nature.com/articles/s41561-025-01731-2">Large CO2 removal potential of woody debris preservation in managed forests</a>", is now available online in Nature Geoscience. One key message is captured by the headline, "To Slow Global Warming, Bury Wood Debris," from <a href="https://news.cornell.edu/stories/2025/06/slow-global-warming-bury-wood-debris">Cornell News</a>. Our study shows that burying this woody biomass over the next 76 years could remove between 770 and 937 gigatons of CO2 from the atmosphere, or between 10.1 and 12.3 gigatons of CO2 per year.</p>
 
     <p>"Based on my knowledge, this is the most effective and the least expensive-and possibly the most sustainable-way to capture carbon," said study first author and Cornell University researcher Yiqi Luo. "There's huge potential."</p>
 
@@ -431,7 +443,7 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
 
     <p>We also visited the <a href="https://anaee.fi/facility/hyytiala-smear-ii/">Hyytiälä SMEAR II LTER Site</a>, which included a forest site (pine) and a peatland site.</p>
 
-    <p>We also enjoyed the daylight in summer and the sauna in Finland!</p>
+    <p>We also enjoyed the long summer daylight and sauna in Finland!</p>
   </li>
 </ul>
 
@@ -442,7 +454,7 @@ Science paper <a href="https://www.science.org/doi/10.1126/science.adv7104">"Dro
   <div class="news-timeline-date">2025 May</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-We visited the <a href="https://www.hfsjg.ch/en/home/">High Altitude Research Stations at Jungfraujoch and Gornergrat</a>! Greenhouse gas concentrations at Jungfraujoch are continuously rising and air temperature has already risen by 2.1 °C between the pre-industrial period 1871-1900 and now (1994-2023).
+We visited the <a href="https://www.hfsjg.ch/en/home/">High Altitude Research Stations at Jungfraujoch and Gornergrat</a>! Greenhouse gas concentrations at Jungfraujoch continue to rise, and air temperature has already increased by 2.1 °C from the pre-industrial period (1871-1900) to the recent period (1994-2023).
 
 The observation facilities are impressive and the views are breathtaking! Many thanks to Kukkis and the local scientists and staff for organizing this fantastic trip!
 
@@ -461,12 +473,12 @@ The observation facilities are impressive and the views are breathtaking! Many t
 
 <ul class="news-subitems">
   <li>
-    <p>It was very nice to meet many collaborators at the 3rd CLEANFOREST meeting and to visit Warsaw and field sites in Kampinos National Park! Many thanks to the organizers and local park staff!</p>
+    <p>It was wonderful to meet many collaborators at the 3rd CLEANFOREST meeting and to visit Warsaw and field sites in Kampinos National Park. Many thanks to the organizers and local park staff!</p>
   </li>
   <li>
-    <p>Using a hierarchical assimilation framework, we found that our community needs more than just live biomass to improve process-based models. We call for more measurements of dead biomass and soil carbon to better support modelers!</p>
+    <p>Using a hierarchical assimilation framework, we found that our community needs more than just live biomass to improve process-based models. We call for more measurements of dead biomass and soil carbon to better support modelers.</p>
 
-    <p>Our paper, "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements," is now (finally!) <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004622">online</a> on JAMES!</p>
+    <p>Our paper, "Forest Carbon Modeling Improved Through Hierarchical Assimilation of Pool-Based Measurements," is now (finally!) <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004622">online</a> in JAMES!</p>
 
     <img src="{{ '/assets/img/news/HDA.jpg' | relative_url }}" alt="HDA" class="img-fluid rounded z-depth-1 mb-3">
   </li>
@@ -479,7 +491,7 @@ The observation facilities are impressive and the views are breathtaking! Many t
   <div class="news-timeline-date">2025 February</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-I am happy to give a talk at the Grassland Seminar at ETH Zurich to introduce my previous work on "Improved estimation of forest carbon dynamics via model-data fusion."
+I was happy to give a talk at the Grassland Seminar at ETH Zurich, where I introduced my previous work on "Improved estimation of forest carbon dynamics via model-data fusion."
 
 Side story: Do you know how much 100 Gt CO2 (the carbon we need to remove from the atmosphere by 2100) is?
 
@@ -494,7 +506,7 @@ It equals the weight of 20 billion elephants! (Generated by ChatGPT)
   <div class="news-timeline-date">2024 December</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Get ready for AGU2024 @DC! My colleagues and I will be presenting at the oral and poster sessions! Here is the list:
+Get ready for AGU 2024 in Washington, DC! My colleagues and I will present in oral and poster sessions. Here is the list:
 
 - Friday, 13, 09:10 - 09:20, 150 B (Convention Center), B51A-05: AI-powered interpretation of dryland carbon dynamics
 - Monday, 13:40 - 17:30, Hall B-C: Community Trait Synergy Enhances Dryland Ecosystem Productivity and Stability
@@ -511,7 +523,7 @@ Get ready for AGU2024 @DC! My colleagues and I will be presenting at the oral an
 
 I have moved to ETH Zurich to start my Research Associate position in Prof. Dr. Nina Buchmann's group.
 
-<img src="{{ '/assets/img/news/ETH.jpg' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
+<img src="{{ '/assets/img/news/ETH.jpg' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3">
 
 </div>
 </section>
@@ -520,7 +532,7 @@ I have moved to ETH Zurich to start my Research Associate position in Prof. Dr. 
   <div class="news-timeline-date">2024 June</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Glad to be the instructor of the 7th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
+I am glad to be the instructor for the 7th training course on New Advances in Land Carbon Cycle Modeling. This year, the course will be offered in a hybrid format, with both virtual and in-person participation. More details about the course are available here: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
 
 </div>
 </section>
@@ -529,9 +541,9 @@ Glad to be the instructor of the 7th training course on New Advances in Land Car
   <div class="news-timeline-date">2023 December</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Get ready for AGU2023!
+Get ready for AGU 2023!
 
-We host an oral session on Friday from 16:00 - 17:30 PST in 2006 - West (Level 2, West, MC) GC54B - Bridging Science and Policy for Effective Climate Mitigation and Sustainable Carbon Neutrality II Oral. The poster session is from 8:30 - 12:50 PST on Friday at Poster Hall A-C - South (Exhibition Level, South, MC).
+We are hosting an oral session on Friday from 16:00 - 17:30 PST in 2006 - West (Level 2, West, MC) GC54B - Bridging Science and Policy for Effective Climate Mitigation and Sustainable Carbon Neutrality II Oral. The poster session is from 8:30 - 12:50 PST on Friday at Poster Hall A-C - South (Exhibition Level, South, MC).
 
 My collaborators and I have several presentations:
 
@@ -552,16 +564,16 @@ My collaborators and I have several presentations:
 
 <ul class="news-subitems">
   <li>
-    <p>Call for abstract! Working on Carbon Dioxide Removal? Developing innovative approaches? Evaluating current CDRs for broader application? Submit your work to #AGU2023 Session GC063 - Leveraging Multifaceted Approaches to Carbon Dioxide Removal for Effective Climate Change Mitigation: <a href="https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033">https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033</a></p>
+    <p>Call for abstracts! Working on Carbon Dioxide Removal? Developing innovative approaches? Evaluating current CDR approaches for broader application? Submit your work to #AGU2023 Session GC063 - Leveraging Multifaceted Approaches to Carbon Dioxide Removal for Effective Climate Change Mitigation: <a href="https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033">https://agu.confex.com/agu/fm23/prelim.cgi/Session/185033</a></p>
   </li>
   <li>
-    <p>Thrilled to share our new paper in Nature Reviews Earth & Environment! Here, we look into the past to help the future. Evidence and attribution of the enhanced land carbon sink. Full text link: <a href="https://www.nature.com/articles/s43017-023-00456-3">https://www.nature.com/articles/s43017-023-00456-3</a></p>
+    <p>Thrilled to share our new paper in Nature Reviews Earth & Environment! In this work, we look into the past to help inform the future: evidence and attribution of the enhanced land carbon sink. Full text link: <a href="https://www.nature.com/articles/s43017-023-00456-3">https://www.nature.com/articles/s43017-023-00456-3</a></p>
 
     <img src="{{ '/assets/img/news/43017_2023_456_Fig3_HTML.webp' | relative_url }}" alt="2023 July Nature Reviews Earth & Environment figure" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
-    <p>How do we manipulate both the mean and variance of precipitation? Check out our paper about the Sevilleta experiments on the dryland ecosystems in Ecosphere: Infrastructure to factorially manipulate the mean and variance of precipitation in the field.</p>
+    <p>How can we manipulate both the mean and variance of precipitation? Check out our Ecosphere paper on the Sevilleta dryland ecosystem experiments: Infrastructure to factorially manipulate the mean and variance of precipitation in the field.</p>
   </li>
 </ul>
 
@@ -572,7 +584,7 @@ My collaborators and I have several presentations:
   <div class="news-timeline-date">2023 June</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Glad to be the instructor of the 6th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
+I am glad to be the instructor for the 6th training course on New Advances in Land Carbon Cycle Modeling. This year, the course will be offered in a hybrid format, with both virtual and in-person participation. More details about the course are available here: <a href="https://ecolab.cals.cornell.edu/?workshop">https://ecolab.cals.cornell.edu/?workshop</a>
 
 </div>
 </section>
@@ -581,7 +593,7 @@ Glad to be the instructor of the 6th training course on New Advances in Land Car
   <div class="news-timeline-date">2023 March</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our new results about how land use is associated with development status in port cities. Check out why these cities are important, how they have evolved in the past decades, and what they are expected to experience in the next several decades!
+Our new results show how land use is associated with development status in port cities. Check out why these cities are important, how they have evolved in the past decades, and what they are expected to experience over the next several decades.
 
 It is now <a href="https://iopscience.iop.org/article/10.1088/1748-9326/acc2d2">online</a> in Environmental Research Letters!
 
@@ -594,9 +606,9 @@ It is now <a href="https://iopscience.iop.org/article/10.1088/1748-9326/acc2d2">
   <div class="news-timeline-date">2023 February</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Model uncertainty comes from various sources, and different models may agree or disagree with each other due to these uncertainty sources. Check out how we pinned down the sources of across-model spread!
+Model uncertainty comes from various sources, and different models may agree or disagree with each other because of these uncertainty sources. Check out how we pinned down the sources of spread across models!
 
-This work is <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643">online</a> in Global Change Biology now!
+This work is now <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643">online</a> in Global Change Biology!
 
 <img src="{{ '/assets/img/news/enqinghou.jpg' | relative_url }}" alt="Model uncertainty" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -609,10 +621,10 @@ This work is <a href="https://onlinelibrary.wiley.com/doi/10.1111/gcb.16643">onl
 
 <ul class="news-subitems">
   <li>
-    <p>Our group attended SEV all-hands meeting in Albuquerque, presented ModEx results, and visited the nice field experiment sites!</p>
+    <p>Our group attended the SEV all-hands meeting in Albuquerque, presented ModEx results, and visited the field experiment sites.</p>
   </li>
   <li>
-    <p>I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Science at Cornell University! Check out this <a href="https://science.ai.cornell.edu/">website</a> to explore 2023 postdoc fellowship openings!</p>
+    <p>I am thrilled to join the first cohort of the Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship at Cornell University! Check out this <a href="https://science.ai.cornell.edu/">website</a> to explore 2023 postdoc fellowship openings!</p>
 
     <img src="{{ '/assets/img/news/MVE.jpg' | relative_url }}" alt="MVE" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -642,7 +654,7 @@ AGU presentations:
 
 I moved to Ithaca and started my new position as a postdoctoral associate at Cornell University!
 
-<img src="{{ '/assets/img/news/cornell.jpg' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
+<img src="{{ '/assets/img/news/cornell.jpg' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3">
 
 </div>
 </section>
@@ -651,7 +663,7 @@ I moved to Ithaca and started my new position as a postdoctoral associate at Cor
   <div class="news-timeline-date">2022 May</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-I will be the instructor of the 5th training course on New Advances in Land Carbon Cycle Modeling. We will have Hybrid Virtual + in Person this year! Check out more details about this course: <a href="https://www2.nau.edu/luo-lab/?workshop">https://www2.nau.edu/luo-lab/?workshop</a>
+I will be the instructor for the 5th training course on New Advances in Land Carbon Cycle Modeling. This year, the course will be offered in a hybrid format, with both virtual and in-person participation. More details about the course are available here: <a href="https://www2.nau.edu/luo-lab/?workshop">https://www2.nau.edu/luo-lab/?workshop</a>
 
 </div>
 </section>
@@ -662,7 +674,7 @@ I will be the instructor of the 5th training course on New Advances in Land Carb
 
 Check out our new paper led by Dr. Sharon Gourdji. This work introduces a modified Vegetation Photosynthesis and Respiration Model that is relatively unbiased and better explains hourly atmospheric CO2 variability compared to other biosphere models.
 
-It's available on <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021JG006290">JRG-Biogeosciences</a> now!
+It is now available in <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021JG006290">JGR-Biogeosciences</a>.
 
 <img src="{{ '/assets/img/news/Sharon Gourdji.jpg' | relative_url }}" alt="VPRM" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -673,9 +685,9 @@ It's available on <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1
   <div class="news-timeline-date">2021 July-August-September</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Back in Worcester! Completed my doctoral degree! Moved to Flagstaff, and I am ready to start my postdoc at Northern Arizona University!
+Back in Worcester, I completed my doctoral degree, moved to Flagstaff, and am ready to start my postdoc at Northern Arizona University!
 
-<img src="{{ '/assets/img/news/NAU.jpg' | relative_url }}" alt="NAU" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
+<img src="{{ '/assets/img/news/NAU.jpg' | relative_url }}" alt="NAU" class="img-fluid rounded z-depth-1 mb-3">
 
 </div>
 </section>
@@ -684,7 +696,7 @@ Back in Worcester! Completed my doctoral degree! Moved to Flagstaff, and I am re
   <div class="news-timeline-date">2021 June</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our NFCMS dataset is available now! Check out <a href="https://doi.org/10.3334/ORNLDAAC/1829">https://doi.org/10.3334/ORNLDAAC/1829</a>.
+Our NFCMS dataset is now available! Check out <a href="https://doi.org/10.3334/ORNLDAAC/1829">https://doi.org/10.3334/ORNLDAAC/1829</a>.
 
 It provides estimates of forest carbon stocks and fluxes in the form of aboveground woody biomass (AGB), total live biomass, total ecosystem carbon, aboveground coarse woody debris (CWD), and net ecosystem productivity (NEP) as a function of the number of years since the most recent disturbance (i.e., stand age) for forests of the conterminous U.S. at a 30 m resolution for the benchmark years 1990, 2000, and 2010. Have fun exploring it!
 
@@ -697,7 +709,7 @@ It provides estimates of forest carbon stocks and fluxes in the form of abovegro
   <div class="news-timeline-date">2021 March</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-We evaluated the National Forest Carbon Monitoring System (NFCMS), which combines forest inventory data, satellite remote sensing of stand biomass and forest disturbances, and an ecosystem carbon cycle model, to show its potential to serve as a candidate monitoring, reporting and verification (MRV) system, informed by field and remotely sensed inventories, and tracking the carbon balance of the forest sector across the United States.
+We evaluated the National Forest Carbon Monitoring System (NFCMS), which combines forest inventory data, satellite remote sensing of stand biomass and forest disturbances, and an ecosystem carbon cycle model. We show its potential to serve as a candidate monitoring, reporting, and verification (MRV) system informed by field and remotely sensed inventories and designed to track the carbon balance of the forest sector across the United States.
 
 Our paper, "Beyond biomass to carbon fluxes: application and evaluation of a comprehensive Forest Carbon Monitoring System" is <a href="https://iopscience.iop.org/article/10.1088/1748-9326/abf06d">online</a> in Environmental Research Letters!
 
@@ -712,18 +724,18 @@ Our paper, "Beyond biomass to carbon fluxes: application and evaluation of a com
 
 <ul class="news-subitems">
   <li>
-    <p>We have two presentations at the AGU fall meeting this year. Check this out!</p>
+    <p>We have two presentations at the AGU Fall Meeting this year. Check them out!</p>
 
     <ul class="news-detail-list">
 
-      <li>Abstract ID# 743618: Matrix MIP to trace uncertainty in predicting land carbon dynamics lead by Enqing Hou from NAU.</li>
+      <li>Abstract ID# 743618: Matrix MIP to trace uncertainty in predicting land carbon dynamics led by Enqing Hou from NAU.</li>
 
-      <li>Abstract ID# 740452: Constraint of terrestrial model parameters from ensemble forward simulations lead by Sha Feng from PSU.</li>
+      <li>Abstract ID# 740452: Constraint of terrestrial model parameters from ensemble forward simulations led by Sha Feng from PSU.</li>
 
     </ul>
   </li>
   <li>
-    <p>Our dataset "Ensemble model output of North American atmospheric CO2 simulations for summer 2016, including transport, CASA and CT2017, and boundary condition ensembles" is available on <a href="https://www.datacommons.psu.edu/commonswizard/MetadataDisplay.aspx?Dataset=6278">Penn State Data Commons</a> now! The resulting "super ensemble" of modeled [CO2] demonstrates that the biosphere introduces the majority of uncertainty to the simulations and that biogenic [CO2] can be lifted by the fronts beyond the top of the atmospheric boundary layer.</p>
+    <p>Our dataset "Ensemble model output of North American atmospheric CO2 simulations for summer 2016, including transport, CASA and CT2017, and boundary condition ensembles" is now available through <a href="https://www.datacommons.psu.edu/commonswizard/MetadataDisplay.aspx?Dataset=6278">Penn State Data Commons</a>. The resulting "super ensemble" of modeled [CO2] demonstrates that the biosphere introduces the majority of uncertainty to the simulations and that biogenic [CO2] can be lifted by the fronts beyond the top of the atmospheric boundary layer.</p>
   </li>
 </ul>
 
@@ -734,7 +746,7 @@ Our paper, "Beyond biomass to carbon fluxes: application and evaluation of a com
   <div class="news-timeline-date">2020 November</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our paper, "Species diversity with comprehensive annotations of wood-inhabiting poroid and corticioid fungi in Uzbekistan," is <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.598321/full">online</a> in Frontiers in Microbiology - Fungi and Their Interactions! This work is based on 790 fungal occurrence records: 185 from recently collected specimens, 101 from herbarium specimens made by earlier collectors, and 504 from literature-based records.
+Our paper, "Species diversity with comprehensive annotations of wood-inhabiting poroid and corticioid fungi in Uzbekistan," is <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.598321/full">online</a> in Frontiers in Microbiology, Fungi and Their Interactions! This work is based on 790 fungal occurrence records: 185 from recently collected specimens, 101 from herbarium specimens made by earlier collectors, and 504 from literature-based records.
 
 I really enjoyed my collaboration with the fungi group!
 
@@ -769,7 +781,7 @@ NASA Earth Data features our team's surface biogenic CO2 exchanges simulated for
 
 We introduce a new perturbed-parameter model ensemble with the CASA model to estimate surface biogenic carbon fluxes at monthly and 3-hourly scales for North America at ~500-m and 5-km resolutions.
 
-Our paper, "A Multiyear Gridded Data Ensemble of Surface Biogenic Carbon Fluxes for North America: Evaluation and Analysis of Results", is <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JG005314">online</a> in JGR-Biogeosciences. The dataset is available on ORNL DAAC <a href="https://doi.org/10.3334/ORNLDAAC/1675">https://doi.org/10.3334/ORNLDAAC/1675</a>.
+Our paper, "A Multiyear Gridded Data Ensemble of Surface Biogenic Carbon Fluxes for North America: Evaluation and Analysis of Results," is <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JG005314">online</a> in JGR-Biogeosciences. The dataset is available on ORNL DAAC <a href="https://doi.org/10.3334/ORNLDAAC/1675">https://doi.org/10.3334/ORNLDAAC/1675</a>.
 
 <img src="{{ '/assets/img/news/JGR-B_TD.png' | relative_url }}" alt="2020 February Taylor diagram" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -782,7 +794,7 @@ Our paper, "A Multiyear Gridded Data Ensemble of Surface Biogenic Carbon Fluxes 
 
 We used a data-driven (or machine learning) approach, along with observations from a number of FLUXNET sites and spatially continuous satellite and meteorological data, to generate gridded carbon and water flux estimates for semi-arid regions globally, and then examined the magnitude, spatial patterns, and trends of carbon and water fluxes and their responses to climate change during the period 1982-2015.
 
-Our paper "Increased carbon uptake and water use efficiency in global semi-arid ecosystems" is <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ab68ec">online</a> in Environmental Research Letters.
+Our paper, "Increased carbon uptake and water use efficiency in global semi-arid ecosystems," is <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ab68ec">online</a> in Environmental Research Letters.
 
 <img src="{{ '/assets/img/news/WUE.jpg' | relative_url }}" alt="WUE" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -818,9 +830,9 @@ Happy new year and welcome to the 2020s!
   <div class="news-timeline-date">2019 August</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-We estimate annual carbon stocks and fluxes in southeastern U.S. forests at 30 m with remote sensing, inventory data and a carbon cycle model. We analyzed the trends and regional greenhouse gas exchange.
+We estimated annual carbon stocks and fluxes in southeastern U.S. forests at 30 m with remote sensing, inventory data, and a carbon cycle model. We analyzed the trends and regional greenhouse gas exchange.
 
-Our paper, "The Carbon Balance of the Southeastern U.S. Forest Sector as Driven by Recent Disturbance Trends", is online in JGR - Biogeosciences! Find the data here <a href="https://doi.org/10.3334/ORNLDAAC/1728">https://doi.org/10.3334/ORNLDAAC/1728</a>!
+Our paper, "The Carbon Balance of the Southeastern U.S. Forest Sector as Driven by Recent Disturbance Trends," is online in JGR-Biogeosciences. Find the data here <a href="https://doi.org/10.3334/ORNLDAAC/1728">https://doi.org/10.3334/ORNLDAAC/1728</a>!
 
 <img src="{{ '/assets/img/news/Huangu.jpg' | relative_url }}" alt="SEforest" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -831,9 +843,9 @@ Our paper, "The Carbon Balance of the Southeastern U.S. Forest Sector as Driven 
   <div class="news-timeline-date">2019 April</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-We improved the estimations of soil-related processes in Biome-BGC MuSo by assimilating ground-measured multi-layer daily soil temperature and moisture at the Changbai Mountains forest flux site by using the Ensemble Kalman Filter algorithm.
+We improved estimates of soil-related processes in Biome-BGC MuSo by assimilating ground-measured, multi-layer daily soil temperature and moisture at the Changbai Mountains forest flux site using the Ensemble Kalman Filter algorithm.
 
-Our paper, "Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical model", is <a href="https://forestecosyst.springeropen.com/articles/10.1186/s40663-019-0171-5">online</a> in Forest Ecosystems.
+Our paper, "Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into a process-based biogeochemical model," is <a href="https://forestecosyst.springeropen.com/articles/10.1186/s40663-019-0171-5">online</a> in Forest Ecosystems.
 
 <img src="{{ '/assets/img/news/Biome-BGC MuSo.webp' | relative_url }}" alt="Biome-BGC MuSo" class="img-fluid rounded z-depth-1 mb-3">
 
@@ -846,15 +858,15 @@ Our paper, "Improved simulation of carbon and water fluxes by assimilating multi
 <ul class="news-subitems">
   <li>
 
-    <p>Our paper, "Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades," is available <a href="https://www.sciencedirect.com/science/article/pii/S0048969718350009">online</a> in Science of The Total Environment!</p>
+    <p>Our paper, "Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over the last three decades," is available <a href="https://www.sciencedirect.com/science/article/pii/S0048969718350009">online</a> in Science of The Total Environment!</p>
 
-    <p>The findings highlight the spatiotemporal changes of institutional and socioeconomic impacts on vegetation productivity in Central Asian drylands and provide implications for future dryland management and restoration efforts.</p>
+    <p>The findings highlight the spatiotemporal changes of institutional and socioeconomic impacts on vegetation productivity in Central Asian drylands and offer insights for future dryland management and restoration efforts.</p>
 
     <img src="{{ '/assets/img/news/stone.jpg' | relative_url }}" alt="Central Asia" class="img-fluid rounded z-depth-1 mb-3">
 
   </li>
   <li>
-    <p>I will attend the 2018 AGU fall meeting in DC, Washington. I will present our recent work: A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results, Y Zhou, CA Williams, T Lauvaux, S Feng, K Keller, KJ Davis in the Session B41J: Advances in Uncertainty Assessment and Reduction for Terrestrial Carbon Cycle Diagnosis and Prediction II Posters, Location: Convention Center; Hall A-C (Poster Hall). Look forward to seeing you there!</p>
+    <p>I will attend the 2018 AGU Fall Meeting in Washington, DC. I will present our recent work: A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results, Y Zhou, CA Williams, T Lauvaux, S Feng, K Keller, KJ Davis in the Session B41J: Advances in Uncertainty Assessment and Reduction for Terrestrial Carbon Cycle Diagnosis and Prediction II Posters, Location: Convention Center; Hall A-C (Poster Hall). I look forward to seeing you there!</p>
 
     <p>Dr. Williams will present: Moving Ecosystem Carbon Cycle Models Forward: Strategies for Improved Assessment and Prediction, Christopher A Williams, Yu Zhou, Huan Gu, Sha Feng, Thomas Lauvaux, Klaus Keller, Kenneth J Davis.</p>
 
@@ -878,7 +890,7 @@ Dr. Williams presented my work at the international ForestSAT conference held in
   <div class="news-timeline-date">2018 August</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-I enjoyed attending the Ecological Society of America annual meeting in August 2018, in New Orleans, LA. I presented in the Inspire session "Improving the Predictive Ability of the Global Carbon Cycle Models".
+I enjoyed attending the Ecological Society of America annual meeting in August 2018, in New Orleans, LA. I presented in the Inspire session, "Improving the Predictive Ability of the Global Carbon Cycle Models."
 
 </div>
 </section>
@@ -896,7 +908,7 @@ I was selected to attend a May short course on New Advances in Land Carbon Cycle
   <div class="news-timeline-date">2017 September</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our paper, "The Performance of Airborne C-Band PolInSAR Data on Forest Growth Stage Types Classification," is <a href="https://www.mdpi.com/2072-4292/9/9/955">online</a> in Remote Sensing now!
+Our paper, "The Performance of Airborne C-Band PolInSAR Data on Forest Growth Stage Types Classification," is now <a href="https://www.mdpi.com/2072-4292/9/9/955">online</a> in Remote Sensing!
 
 This paper proposes a classification scheme for forest growth stage types and other cover types using a support vector machine (SVM) based on the Polarimetric SAR Interferometric (PolInSAR) data acquired by the Chinese Multidimensional Space Joint-observation SAR (MSJosSAR) system.
 
@@ -938,7 +950,7 @@ In this paper, we characterized the drought events in China from 1982 to 2012 an
 
 I attended the Data-Driven and Simulation Science Summer School in Jena hosted by Friedrich Schiller University and the Max Planck Institute for Biogeochemistry. I enjoyed my time in Germany!
 
-I got a Travel Award to attend the Data-Driven and Simulation Science Summer School in Jena.
+I received a travel award to attend the Data-Driven and Simulation Science Summer School in Jena.
 
 </div>
 </section>
@@ -947,7 +959,7 @@ I got a Travel Award to attend the Data-Driven and Simulation Science Summer Sch
   <div class="news-timeline-date">2015 November</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our paper "Contributions of natural and human factors to increases in vegetation productivity in China" is <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES14-00394.1">online</a> in the Ecosphere.
+Our paper, "Contributions of natural and human factors to increases in vegetation productivity in China," is <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES14-00394.1">online</a> in the Ecosphere.
 
 We analyzed the long-term trends in vegetation productivity in China using the satellite-derived normalized difference vegetation index (NDVI) and assessed the relationships of NDVI with a suite of natural (air temperature, precipitation, photosynthetically active radiation (PAR), atmospheric carbon dioxide (CO2) concentrations, and nitrogen (N) deposition) and human (afforestation and improved agricultural management practices) factors.
 
@@ -960,9 +972,9 @@ We analyzed the long-term trends in vegetation productivity in China using the s
   <div class="news-timeline-date">2015 March</div>
   <div class="news-timeline-content news-single-item" markdown="1">
 
-Our paper, "Climate contributions to vegetation variations in central Asian drylands: Pre-and post-USSR collapse," is <a href="https://www.mdpi.com/2072-4292/7/3/2449">online</a> in Remote Sensing.
+Our paper, "Climate contributions to vegetation variations in central Asian drylands: Pre- and post-USSR collapse," is <a href="https://www.mdpi.com/2072-4292/7/3/2449">online</a> in Remote Sensing.
 
-Our results clearly illustrate the combined influence of climatic/anthropogenic contributions on vegetation growth in Central Asian drylands. Due to the USSR collapse, this region represents a unique case study of the vegetation response to climate changes under different climatic and socio-economic conditions.
+Our results illustrate the combined influence of climatic and anthropogenic drivers on vegetation growth in Central Asian drylands. Due to the USSR collapse, this region represents a unique case study of the vegetation response to climate changes under different climatic and socio-economic conditions.
 
 <img src="{{ '/assets/img/news/remotesensing.png' | relative_url }}" alt="central asia" class="img-fluid rounded z-depth-1 mb-3">
 
