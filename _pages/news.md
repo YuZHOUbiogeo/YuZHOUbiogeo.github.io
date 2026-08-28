@@ -143,13 +143,9 @@ nav_order: 1
 .news-timeline-content {
   min-width: 0;
 }
-.news-timeline-content > img,
-.news-timeline-content li > img,
-.news-timeline-content video {
-  display: block;
-  width: auto;
-  max-width: min(100%, 34rem);
-  max-height: 320px;
+.news-timeline-content img {
+  max-width: 80%;
+  max-height: 360px;
   object-fit: contain;
   background: var(--global-bg-color);
 }
@@ -231,13 +227,6 @@ nav_order: 1
   .news-timeline-date::after {
     left: -1.75rem;
     right: auto;
-  }
-  .news-timeline-content > img,
-  .news-timeline-content li > img,
-  .news-timeline-content video {
-    width: 100%;
-    max-width: 100%;
-    max-height: 260px;
   }
 
   .news-photo-gallery {
@@ -523,7 +512,7 @@ Get ready for AGU 2024 in Washington, DC! My colleagues and I will present in or
 
 I have moved to ETH Zurich to start my Research Associate position in Prof. Dr. Nina Buchmann's group.
 
-<img src="{{ '/assets/img/news/ETH.jpg' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3">
+<img src="{{ '/assets/img/news/ETH.jpg' | relative_url }}" alt="ETH Zurich" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
 
 </div>
 </section>
@@ -654,7 +643,7 @@ AGU presentations:
 
 I moved to Ithaca and started my new position as a postdoctoral associate at Cornell University!
 
-<img src="{{ '/assets/img/news/cornell.jpg' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3">
+<img src="{{ '/assets/img/news/cornell.jpg' | relative_url }}" alt="cornell" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
 
 </div>
 </section>
@@ -687,7 +676,7 @@ It is now available in <a href="https://agupubs.onlinelibrary.wiley.com/doi/full
 
 Back in Worcester, I completed my doctoral degree, moved to Flagstaff, and am ready to start my postdoc at Northern Arizona University!
 
-<img src="{{ '/assets/img/news/NAU.jpg' | relative_url }}" alt="NAU" class="img-fluid rounded z-depth-1 mb-3">
+<img src="{{ '/assets/img/news/NAU.jpg' | relative_url }}" alt="NAU" class="img-fluid rounded z-depth-1 mb-3" style="max-width: 30%; max-height: 300px;">
 
 </div>
 </section>
