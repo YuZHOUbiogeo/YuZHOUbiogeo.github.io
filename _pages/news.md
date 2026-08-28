@@ -253,7 +253,7 @@ nav_order: 1
 
 <ul class="news-subitems">
   <li>
-      <p>Congrats to Yuqi on her successful defense of her doctoral dissertation! She has published three first-author articles and eight co-authored articles, with two more articles in preparation. Very impressive! Looking forward to hearing more from you, Dr. Dong!</p>
+      <p>Congrats to Yuqi on her successful defense of her doctoral dissertation! I had the privilege of co-supervising her during her PhD journey. She has published three first-author articles and eight co-authored articles, with two more articles in preparation. Very impressive! Looking forward to hearing more from you, Dr. Dong!</p>
 
       <img src="{{ '/assets/img/news/Yuqi.jpg' | relative_url }}" alt="Yuqi _dotcoral defense" class="img-fluid rounded z-depth-1 mb-3">
 
