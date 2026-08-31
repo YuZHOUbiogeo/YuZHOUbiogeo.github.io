@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-31'
 papers:
   LUfxjnEAAAAJ:0EnyYjriUFMC:
     citations: 27
@@ -22,7 +22,7 @@ papers:
     title: Preserving wood debris towards net-zero carbon emission
     year: '2023'
   LUfxjnEAAAAJ:3fE2CSJIrl8C:
-    citations: 30
+    citations: 31
     title: 'A multiyear gridded data ensemble of surface biogenic carbon fluxes for North America: evaluation and analysis of results'
     year: '2020'
   LUfxjnEAAAAJ:4DMP91E08xMC:
@@ -38,11 +38,11 @@ papers:
     title: 'Progress toward improving regional atmospheric inversions using airborne measurements: Results from ACT-America'
     year: '2017'
   LUfxjnEAAAAJ:5nxA0vEk-isC:
-    citations: 21
+    citations: 22
     title: The carbon balance of the southeastern US forest sector as driven by recent disturbance trends
     year: '2019'
   LUfxjnEAAAAJ:8k81kl-MbHgC:
-    citations: 59
+    citations: 61
     title: "Seasonal Characteristics of Model Uncertainties From Biogenic Fluxes, Transport, and Large\u2010Scale Boundary Inflow in Atmospheric CO2 Simulations Over North \u2026"
     year: '2019'
   LUfxjnEAAAAJ:BqipwSGYUEgC:
@@ -98,11 +98,11 @@ papers:
     title: Forest Carbon Stocks and Fluxes After Disturbance, Southeastern USA, 1990-2010. ORNL DAAC, Oak Ridge, Tennessee, USA
     year: '2019'
   LUfxjnEAAAAJ:MXK_kJrjxJIC:
-    citations: 105
+    citations: 107
     title: Increased carbon uptake and water use efficiency in global semi-arid ecosystems
     year: '2020'
   LUfxjnEAAAAJ:NMxIlDl6LWMC:
-    citations: 13
+    citations: 14
     title: "Across\u2010model spread and shrinking in predicting peatland carbon dynamics under global change"
     year: '2023'
   LUfxjnEAAAAJ:NaGl4SEjCO4C:
@@ -134,7 +134,7 @@ papers:
     title: The fate of peatland carbon interactively determined by elevated carbon dioxide and warming
     year: '2024'
   LUfxjnEAAAAJ:TFP_iSt0sucC:
-    citations: 62
+    citations: 65
     title: A modified Vegetation Photosynthesis and Respiration Model (VPRM) for the eastern USA and Canada, evaluated with comparison to atmospheric observations and other biospheric models
     year: '2022'
   LUfxjnEAAAAJ:Tyk-4Ss8FVUC:
@@ -154,7 +154,7 @@ papers:
     title: Improved simulation of carbon and water fluxes by assimilating multi-layer soil temperature and moisture into process-based biogeochemical model
     year: '2019'
   LUfxjnEAAAAJ:WF5omc3nYNoC:
-    citations: 66
+    citations: 67
     title: Spatiotemporal transition of institutional and socioeconomic impacts on vegetation productivity in Central Asia over last three decades
     year: '2019'
   LUfxjnEAAAAJ:Wp0gIr-vW9MC:
@@ -182,7 +182,7 @@ papers:
     title: 'A multi-year gridded data product of surface biogenic carbon fluxes for North America: Evaluation and analysis of results'
     year: '2018'
   LUfxjnEAAAAJ:_xSYboBqXhAC:
-    citations: 11
+    citations: 12
     title: Drought-induced peatland carbon loss exacerbated by elevated CO2 and warming
     year: '2025'
   LUfxjnEAAAAJ:a0OBvERweLwC:
@@ -210,7 +210,7 @@ papers:
     title: Spatial and temporal distribution of onroad CO2 emissions at the Urban spatial scale
     year: '2011'
   LUfxjnEAAAAJ:f2IySw72cVMC:
-    citations: 6
+    citations: 8
     title: Large CO2 removal potential of woody debris preservation in managed forests
     year: '2025'
   LUfxjnEAAAAJ:fPk4N6BV_jEC:
@@ -250,7 +250,7 @@ papers:
     title: 'Investigating the Role of Hydraulic Redistribution on Water and Carbon Cycle in Dryland Ecosystems: Empirical and Modeling Approaches'
     year: '2023'
   LUfxjnEAAAAJ:mB3voiENLucC:
-    citations: 75
+    citations: 77
     title: Species diversity with comprehensive annotations of wood-inhabiting poroid and corticioid fungi in Uzbekistan
     year: '2020'
   LUfxjnEAAAAJ:mVmsd5A6BfQC:
@@ -286,7 +286,7 @@ papers:
     title: Quantification of modeled atmospheric CO2 uncertainty from various sources using ACT-America aircraft data
     year: '2018'
   LUfxjnEAAAAJ:u5HHmVD_uO8C:
-    citations: 61
+    citations: 63
     title: A comparison of satellite-derived vegetation indices for approximating gross primary productivity of grasslands
     year: '2014'
   LUfxjnEAAAAJ:u_35RYKgDlwC:
@@ -294,7 +294,7 @@ papers:
     title: "Forest carbon modeling improved through hierarchical assimilation of pool\u2010based measurements"
     year: '2025'
   LUfxjnEAAAAJ:vV6vV6tmYwMC:
-    citations: 298
+    citations: 305
     title: Evidence and attribution of the enhanced land carbon sink
     year: '2023'
   LUfxjnEAAAAJ:xtRiw3GOFMkC:
