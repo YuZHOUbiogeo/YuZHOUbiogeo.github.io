@@ -57,7 +57,7 @@ nav_order: 4
   <div class="col-sm-9">
     <h2>Hailiang Zhang</h2>
 
-    <p>Hailiang Zhang is a master's student at Jiangsu Ocean University. He is working on plant acclimation under climate extremes and is co-supervised by <a href="https://www.researchgate.net/profile/Quan-Quan-6">Dr. Quan</a> and me.</p>
+    <p>Hailiang Zhang is a master's student at Jiangsu Ocean University. He is working on plant acclimation under climate extremes and is co-supervised by <a href="https://www.researchgate.net/profile/Quan-Quan-6">Dr. Quan</a> and me. He received his bachelor's degree in Geographic Information Science from Jiangsu Ocean University in 2026.</p>
   </div>
 </div>
 
