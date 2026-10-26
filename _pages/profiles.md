@@ -52,14 +52,32 @@ nav_order: 4
 
 <div class="row align-items-start mb-5">
   <div class="col-sm-3 mb-3">
+    <img src="{{ '/assets/img/people/HailiangZhang.png' | relative_url }}" alt="Hailiang Zhang" class="people-photo img-fluid rounded z-depth-1">
+  </div>
+  <div class="col-sm-9">
+    <h2>Hailiang Zhang</h2>
+
+    <p>Hailiang Zhang is a master's student at Jiangsu Ocean University. He is working on plant acclimation under climate extremes and is co-supervised by <a href="https://www.researchgate.net/profile/Quan-Quan-6">Dr. Quan</a> and me.</p>
+  </div>
+</div>
+
+<hr>
+
+## Alumni
+
+
+<div class="row align-items-start mb-5">
+  <div class="col-sm-3 mb-3">
     <img src="{{ '/assets/img/people/YuqiDong.png' | relative_url }}" alt="Yuqi Dong" class="people-photo img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-9">
     <h2>Dr. Yuqi Dong <a href="https://drive.google.com/file/d/1TxyitOi5mMuhCZVEtQUuDBy590HzmrSk/view?usp=sharing">(CV)</a></h2>
 
-    <p> Dr. Yuqi Dong got her Ph.D. in Cartography and Geographic Information Systems at the Aerospace Information Research Institute, Chinese Academy of Sciences. Her research focuses on the responses of vegetation phenology and productivity to climate change in global drylands. I  co-supervised her Ph.D. with <a href="https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html">Prof. Li Zhang</a> from 2021 to 2026.</p>
+    <p>Dr. Yuqi Dong earned her Ph.D. in Cartography and Geographic Information Systems at the Aerospace Information Research Institute, Chinese Academy of Sciences. Her research focuses on vegetation phenology and productivity responses to climate change in global drylands. I co-supervised her Ph.D. with <a href="https://www.cbas.ac.cn/en/people/researcher/professors/202109/t20210903_487277.html">Prof. Li Zhang</a> from 2021 to 2026.</p>
 
-    <p>Before joining Prof. Zhang's group, she received B.E. in Surveying and Mapping Engineering from China University of Mining and Technology (Beijing).</p>
+    <p>Before joining Prof. Zhang's group, she received her B.E. in Surveying and Mapping Engineering from China University of Mining and Technology (Beijing).</p>
+
+    <p>She is now a postdoctoral researcher at Shanghai TaiAn Agricultural Insurance Research Institute.</p>
 
     <p>
       <a href="https://scholar.google.com/citations?user=fFo8LSgAAAAJ&amp;hl=en">Google Scholar</a> ·
@@ -70,9 +88,5 @@ nav_order: 4
   </div>
 </div>
 
-<hr>
-
-## Alumni
-
-[Manfred Lim](https://www.linkedin.com/in/manfred-lim-1b40a3230/), Jun 2023 - Dec 2024, High School student at Jericho Senior High School, now undergraduate at Columbia University.
+<hr>[Manfred Lim](https://www.linkedin.com/in/manfred-lim-1b40a3230/), Jun 2023 - Dec 2024, High School student at Jericho Senior High School, now undergraduate at Columbia University.
 
