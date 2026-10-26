@@ -62,11 +62,18 @@ nav_order: 6
 <section class="service-section">
   <h2>Mentorship</h2>
   <ol class="service-list">
+  <li>
+      <div class="service-date">2026-</div>
+      <div>
+        <div><span class="service-title">Hailiang Zhang</span>, Master's student at Jiangsu Ocean University</div>
+        <div class="service-meta">Co-supervisor with Dr. Quan on plant acclimation under climate extremes</div>
+      </div>
+    </li>
     <li>
       <div class="service-date">2025-</div>
       <div>
-        <div><span class="service-title">Sofia Ferdini</span>, PhD student at AgroParisTech/Paris-Saclay and UniversitÃ¤t Hohenheim</div>
-        <div class="service-meta">Individual Monitoring Committee member on process-based and data-driven modeling</div>
+        <div><span class="service-title">Sofia Ferdini</span>, PhD student at AgroParisTech/Paris-Saclay and Universität Hohenheim</div>
+        <div class="service-meta">Member of the Individual Monitoring Committee for process-based and data-driven modeling</div>
       </div>
     </li>
     <li>
@@ -115,7 +122,7 @@ nav_order: 6
       <div class="service-date">ETH USYS 2026</div>
       <div>
         <div><span class="service-title">Professorship search committee</span></div>
-        <div class="service-meta">Memeber of Scientific Staff Panel</div>
+        <div class="service-meta">Member of the Scientific Staff Panel</div>
       </div>
     </li>
   </ol>
