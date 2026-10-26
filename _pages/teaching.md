@@ -96,6 +96,10 @@ nav_order: 6
 <section class="service-section">
   <h2>Teaching</h2>
   <ol class="service-list">
+        <li>
+      <div class="service-date">Aug 2026</div>
+      <div><span class="service-title">Guest lecturer</span>, CzechGlobe, on Machine Learning Techniques in Ecology</div>
+    </li>
     <li>
       <div class="service-date">2025-</div>
       <div><span class="service-title">Global Change Biology</span>, ETH Zurich, co-lecturer with Drs. Buchmann, Kukka-Maaria, and Flavian</div>
@@ -131,6 +135,14 @@ nav_order: 6
 <section class="service-section">
   <h2>Conference Sessions</h2>
   <ol class="service-list">
+        <li>
+      <div class="service-date">Jul 2027</div>
+      <div>
+        <div><span class="service-title">Co-convener</span></div>
+        <div class="service-meta">BG22: Tropical Forest Disturbance and Multidimensional Recovery: from Structure to Function</div>
+        <div class="service-meta">AOGS 24th Annual Meeting, July 25-30, 2027, Marina Bay Sands, Singapore</div>
+      </div>
+    </li>
     <li>
       <div class="service-date">AGU 2023</div>
       <div>
