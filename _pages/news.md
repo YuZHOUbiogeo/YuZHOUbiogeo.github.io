@@ -249,6 +249,24 @@ nav_order: 1
 
 <div class="news-timeline">
 <section class="news-timeline-item">
+  <div class="news-timeline-date">2026 September</div>
+  <div class="news-timeline-content" markdown="1">
+
+<ul class="news-subitems">
+  <li>
+    <p>Our manuscript, "Elevated CO2 mitigated warming-enhanced carbon loss from northern peatland," has been accepted by <em>Science Advances</em>! Thanks to Jian for leading this work!</p>
+  </li>
+  <li>
+    <p>I attended the ICOS Annual Meeting in Lund and gave a talk titled <strong>"Nitrogen Deposition Alters Ecosystem Drought Resilience across Europe"</strong>. I was also happy to meet so many collaborators who contributed to data collection for <a href="https://gl.ethz.ch/research/pepb/ceres.html">CERES</a>!</p>
+
+    <img src="{{ '/assets/img/news/ICOS-Lund-2026.png' | relative_url }}" alt="Yu Zhou presenting at the ICOS Annual Meeting in Lund" class="img-fluid rounded z-depth-1 mb-3">
+  </li>
+</ul>
+
+</div>
+</section>
+
+<section class="news-timeline-item">
   <div class="news-timeline-date">2026 August</div>
   <div class="news-timeline-content" markdown="1">
 
