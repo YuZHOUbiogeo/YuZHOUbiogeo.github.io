@@ -160,6 +160,7 @@ nav_order: 6
     <li>One Earth</li>
     <li>Global Change Biology</li>
     <li>Remote Sensing of Environment</li>
+    <li>New Phytologist</li>
     <li>Communications Earth &amp; Environment</li>
     <li>Journal of Advances in Modeling Earth Systems</li>
     <li>Agricultural and Forest Meteorology</li>
